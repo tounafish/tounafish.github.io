@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+h2, h3, h5, p, ul {
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-size: 170px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: yellow;
+}
+
+h2 {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	color: orange;
+	margin-top: 40px;
+}
+
+h3 {
+	color: yellow;
+}
+
+h4 {
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	color: rgb(120,120,120);
+	text-align: right;
+	margin-bottom: 70px;
+	margin-top: 0px;
+}
+
+p {
+	margin-top: 0px;
+	color: white;
+}
+
+a {
+	color: yellow;
+}
+
+img {
+	width:500px;
+	margin-top: 0px;
+}
+
+ul {
+	width: 180px;
+	float: left;
+	color: white;
+}
+
+
+
