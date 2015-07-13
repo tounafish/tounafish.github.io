@@ -15,3 +15,9 @@ h1, h2, h3, h4, p {
 h1 {
 	color: red;
 }
+
+#footer {
+	color: red;
+	text-decoration: none;
+
+}
