@@ -1,10 +1,7 @@
 body {
-	width: 700px;
+	width: 720px;
 	font-family: 'Lato', sans-serif;
-}
-
-div {
-	padding: 0 0 0 54px;
+	padding-left: 54px;
 }
 
 img {
