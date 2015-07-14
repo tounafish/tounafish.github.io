@@ -1,7 +1,9 @@
 body {
-	width: 720px;
+	width: 800px;
 	font-family: 'Lato', sans-serif;
-	padding-left: 54px;
+}
+div {
+	float:inherit;
 }
 
 img {
@@ -18,19 +20,50 @@ p  {
 
 h1 {
 	color: red;
-	font-size: 60px;
+	font-size: 50px;
+	margin: 0;
 }
 
-#nav {
-	padding-right: 30px;
+h2 {
+	font-size: 1.55em;
+}
+
+#graybar p {
+	width: 5px;
+	min-height: 1850px;
+	color: #bbbbbb;
+	background-color: #bbbbbb;
+	margin: 0 70px 0 0;
+	float: left;
+}
+
+#nav a {
+	margin-right: 20px;
+	font-size: 1.3em;
+	color: #cccccc;
+}
+
+#container h1 {
+	margin-top: 70px;
 }
 
 #container h2 {
-	margin-top: 0px;
+	margin-top: 20px;
+}
+
+#jack h2 {
+	margin-top: 70px;
+	margin-bottom: 0px;
+	font-size: 35px;
+	color: #cccccc;
+}
+
+#jack h3 {
+	font-size: 40px;
+	margin: 0px 0px 15px 0px;
 }
 
 #footer a {
 	color: red;
 	text-decoration: none;
-
 }
