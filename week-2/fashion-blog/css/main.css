@@ -12,8 +12,21 @@ h1, h2, h3, h4, p {
 	font-weight: 300;
 }
 
+p  {
+	line-height: 1.5em;
+}
+
 h1 {
 	color: red;
+	font-size: 60px;
+}
+
+#nav {
+	padding-right: 30px;
+}
+
+#container h2 {
+	margin-top: 0px;
 }
 
 #footer a {
