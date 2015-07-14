@@ -67,6 +67,8 @@ h2 {
 	color: red;
 	text-align: right;
 	font-weight: 700;
+	border-bottom: solid 3px;
+	text-decoration: none;
 }
 
 #footer a {
