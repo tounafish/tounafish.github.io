@@ -1,6 +1,9 @@
 body {
 	width: 825px;
 	font-family: 'Lato', sans-serif;
+    margin: 0;
+    border-left: 6px solid #aaa;
+    padding: 70px 0 0 40px;
 }
 div {
 	float:inherit;
@@ -43,12 +46,14 @@ h2 {
 	color: #cccccc;
 }
 
-#container h1 {
-	margin-top: 70px;
-}
+
 
 #container h2 {
 	margin-top: 20px;
+}
+
+#jack{
+	border-bottom: 1px solid #ccc;
 }
 
 #jack h2 {
@@ -65,10 +70,11 @@ h2 {
 
 #jack a {
 	color: red;
-	text-align: right;
 	font-weight: 700;
-	border-bottom: solid 3px;
 	text-decoration: none;
+	line-height: 2.7em;
+    text-align: right;
+    display: block;
 }
 
 #footer a {
