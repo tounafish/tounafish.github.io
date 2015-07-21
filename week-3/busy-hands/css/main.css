@@ -2,10 +2,8 @@ header {
 	background-color: black;
 }
 
-div {
+.ninesixty {
 	width: 960px;
-	margin: 0 auto;
-	overflow: hidden;
 }
 
 nav a {
@@ -55,10 +53,8 @@ height: 0;
 }
 
 #underrainbow {
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-bottom: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+	border-style: inset;
+	border-width: 4px;
 	padding: 10px;
 	overflow: hidden;
 }
