@@ -1,0 +1,135 @@
+header {
+	background-color: black;
+}
+
+div {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+nav a {
+	padding: 35px;
+	font-family: helvetica;
+	color: white;
+	float: left;
+	overflow: hidden;
+}
+
+nav a:hover {
+	background-color: orange;
+	color: black;
+	overflow: hidden;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+#logo {
+	width: 292px;
+	float: left;
+	overflow: hidden;
+}
+
+#social {
+	float: right;
+	overflow: hidden;
+	width: 300px;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+.hero {
+	margin-left: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+#underrainbow {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#underrainbow p {
+	width: 75%;
+	float: left;
+}
+
+#underrainbow img {
+	float: right;
+}
+
+.homebox {
+	width: 33.333%;
+	text-align: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#one {
+	float: left;
+	overflow: hidden;
+}
+
+#two {
+	float: left;
+	overflow: hidden;
+
+}
+
+#three {
+	float: left;
+	overflow: hidden;
+}
+
+.foter {
+	text-align: left;
+	margin-top: 20px;
+	float: left;
+	color: white;
+}
+
+.blog {
+	width: 24%;
+	line-height: 1.7;
+}
+
+.blog p {
+	color: #cccccc;
+	border-bottom: 1px solid #ccc;
+	border-spacing: 6px;
+}
+
+#text {
+	width: 45%;
+	float: left;
+	margin: 0px 20px;
+}
+
+#copy p {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+

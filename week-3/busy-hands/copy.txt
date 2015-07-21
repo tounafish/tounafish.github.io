@@ -40,6 +40,7 @@ Blogroll
 
 Text Widget
 Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit etconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
 Meta Widget
 
     Log in
