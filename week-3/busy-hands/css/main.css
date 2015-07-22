@@ -30,12 +30,10 @@ footer {
 #logo {
 	width: 292px;
 	float: left;
-	overflow: hidden;
 }
 
 #social {
 	float: right;
-	overflow: hidden;
 	width: 300px;
 }
 
@@ -51,12 +49,11 @@ height: 0;
 .hero {
 	margin-left: 0;
 	clear: both;
-	overflow: hidden;
 }
 
 #underrainbow {
 	border-style: inset;
-	border-width: 4px;
+	border-width: 3px;
 	padding: 10px;
 	overflow: hidden;
 }
@@ -74,24 +71,20 @@ height: 0;
 .homebox {
 	width: 33.333%;
 	text-align: left;
-	overflow: hidden;
 	margin-top: 20px;
 }
 
 #one {
 	float: left;
-	overflow: hidden;
 }
 
 #two {
 	float: left;
-	overflow: hidden;
 
 }
 
 #three {
 	float: left;
-	overflow: hidden;
 }
 
 .foter {
@@ -104,12 +97,15 @@ height: 0;
 .blog {
 	width: 24%;
 	line-height: 1.7;
+	margin-top: 0px;
+
 }
 
 .blog p {
 	color: #cccccc;
 	border-bottom: 1px solid #ccc;
 	border-spacing: 6px;
+	margin-top: 0;
 }
 
 #text {
@@ -118,11 +114,13 @@ height: 0;
 	margin: 0px 20px;
 }
 
-#copy p {
+.divinfooter {
 	display: inline-block;
+	width: 100%;
+}
+
+#copy {
 	text-align: right;
-	float: right;
-	overflow: hidden;
 }
 
 
