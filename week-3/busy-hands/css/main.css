@@ -114,13 +114,8 @@ height: 0;
 	margin: 0px 20px;
 }
 
-.divinfooter {
-	display: inline-block;
-	width: 100%;
-}
-
-#copy {
-	text-align: right;
+#divinfooter {
+	clear: both;
 }
 
 
