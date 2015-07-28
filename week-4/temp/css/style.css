@@ -1,36 +1,42 @@
-#cold {
-	background-color: blue;
-}
 
-#hot {
-	background-color: red;
-}
 
 #all {
-	background-color: black;
-	height: 200px;
- 	padding: 30px;
+  margin: 0 auto;
+  width: 960px;
+  background-color: orange;
+
 }
 
-div {
-	text-align: center
+header {
+  background-color: #000;
 }
 
-h1 {
-	color: white;
-}
-
-#cold {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav {
   overflow: hidden;
 }
 
-#lower h2 {
+nav a {
   float: left;
   display: block;
-  width: 100px;
+  height: 49px;
+  color: #ccc;
+  padding: 36px 18px 0 18px;
+  font-size: 17px; 
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-color: #079fde;
+  color: #ffffff;
+}
+.button {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  width: 120px;
   height: 40px;
   margin: 0 5px 5px 0;
   border-radius: 10px;
@@ -47,15 +53,13 @@ h1 {
  	border: 1px solid black;
 }
 
-#grayButton {
+#gray {
   background-color: gray;
 }
-#whiteButton {
-  background-color: white;
+#red {
+  background-color: red;
 }
-#blueButton {
+#blue {
   background-color: blue;
 }
-#yellowButton {
-  background-color: yellow;
-}
+
