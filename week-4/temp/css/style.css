@@ -1,10 +1,22 @@
-
+body {
+  text-decoration: none;
+}
 
 #all {
   margin: 0 auto;
-  width: 960px;
+  width: 100%;
   background-color: orange;
+}
 
+ol p {
+  color: white;
+  padding-bottom: 30px;
+}
+
+#all li {
+  margin: 33.33%;
+  min-height: 10px;
+  text-decoration: none;
 }
 
 header {
@@ -25,13 +37,11 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: none;
   background-color: #079fde;
   color: #ffffff;
 }
 .button {
   list-style: none;
-  text-decoration: none;
   text-align: center;
   padding: 0;
   overflow: hidden;
@@ -60,6 +70,16 @@ nav a:hover {
   background-color: red;
 }
 #blue {
+  background-color: blue;
+}
+
+#gray2 {
+  background-color: gray;
+}
+#red2 {
+  background-color: red;
+}
+#blue2 {
   background-color: blue;
 }
 
