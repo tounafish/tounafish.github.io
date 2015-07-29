@@ -1,11 +1,27 @@
-body {
-  text-decoration: none;
-}
+
 
 #all {
   margin: 0 auto;
   width: 100%;
   background-color: orange;
+  height: 200px;
+  padding: 30px;
+}
+
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 5px solid black;
 }
 
 ol p {
@@ -30,10 +46,14 @@ nav {
 nav a {
   float: left;
   display: block;
-  height: 49px;
   color: #ccc;
   padding: 36px 18px 0 18px;
-  font-size: 17px; 
+  font-size: 17px;
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 5px solid black;
 }
 
 nav a:hover {
@@ -73,13 +93,5 @@ nav a:hover {
   background-color: blue;
 }
 
-#gray2 {
-  background-color: gray;
-}
-#red2 {
-  background-color: red;
-}
-#blue2 {
-  background-color: blue;
-}
+
 

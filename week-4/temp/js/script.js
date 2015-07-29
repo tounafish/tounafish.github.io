@@ -1,4 +1,4 @@
-document.getElementById("blue").onclick = coldBlue;
+document.getElementById("blue").onclick=coldBlue;
 
 function coldBlue() {
   document.getElementById("all").style.color = "white";
