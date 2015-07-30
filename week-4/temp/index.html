@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Converter Touna</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-  </head>
-  <body>
-   <header>
-      <nav>
-        <a class="button" id="blue">COLDER</a>
-        <a class="button" id="red">HOTTER</a>
-        <a class="button" id="gray">OFF</a>
-      </nav>
-    </header>
-    <div id="all">
-      <ul id="switcher">
-        <li id="gray2"></li>
-        <li id="red2"></li>
-        <li id="blue2"></li>
-      </ul>
-    </div>
-    </div>
-  </div>
-    <footer>
-      <p>Build an application using HTML/CSS and JS that converts a temperature from Fahrenheit to Celsius AND from Celsius to Fahrenheit, based on user input. It will follow the basic structure of the last two examples from class.</p>
-      <ul>
-        <ol>User enters value into <strong>input</strong></ol>
-        <ol>User triggers click event.</ol>
-        <ol>Value is scraped from <strong>input</strong> and stored in variable.</ol>
-        <ol>Calculation is performed on value and stored in variable.</ol>
-        <ol>Result is output to screen.</ol>
-        <ol>If you don't remember from Middle School, the conversion formula, via Math is Fun: http://www.mathsisfun.com/temperature-conversion.html</ol>
-      </ul>
-    </footer>
-   <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<!-- Top 2 Columns -->
+<section id="wrapper">
+      <!-- Celsius Input -->
+      <div class="tempdiv" id="C">
+        <h1>&#8451;</h1>
+        <h2>Enter Celsius <input id="inputC"></h2>
+        <button id="go1">GO</button>
+      </div>
+
+      <!-- Fahrenheit Input -->
+      <div class="tempdiv" id="F">
+        <h1>&#8457;</h1>
+        <h2>Enter Fahrenheit <input id="inputF"></h2>
+        <button id="go2">GO</button>
+      </div>
+</section>
+
+<!-- Answer -->
+<article id="answerhere">
+      <div class="ansClass" id="xans"> </div>
+      <div class="ansClass" id="is"> &nbsp; is &nbsp; </div>
+      <div class="ansClass" id="yans"> </div>  
+</article>
+
+<footer>
+</footer>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
   </body>
 </html>

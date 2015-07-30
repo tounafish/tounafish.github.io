@@ -1,0 +1,39 @@
+body {
+	background-color: #000000;
+}
+
+#message {
+	font-size: 5em;
+	margin-top: 3em;
+	width: 100%;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+#box1 {
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+}
+#box2 {
+	top: 0;
+	right: 0;	
+	background-color: #ffff00;
+}
+#box3 {
+	bottom: 0;
+	right: 0;	
+	background-color: #00ffff;
+}
+#box4 {
+	bottom: 0;
+	left: 0;	
+	background-color: #ff00ff;
+}

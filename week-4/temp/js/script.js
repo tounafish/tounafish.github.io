@@ -1,20 +1,34 @@
-document.getElementById("blue").onclick=coldBlue;
+var fahr; 
+var cels;
+var inputC;
+var inputF;
+var answerC;
+var answerF;
+var zero = null;
 
-function coldBlue() {
-  document.getElementById("all").style.color = "white";
-  document.getElementById("all").style.backgroundColor = "blue";
+document.getElementById("go1").onclick = calculateTempC;
+
+function calculateTempC() {
+	cels = document.getElementById("inputC").value;
+	fahr = document.getElementById("inputF").value;
+	var inputC = cels;
+	answerC = ((cels * 9) / 5) + 32;
+	document.getElementById("xans").innerHTML = zero;
+	document.getElementById("yans").innerHTML = zero;
+	document.getElementById("xans").innerHTML = inputC + "&#8451;";
+	document.getElementById("yans").innerHTML = answerC + "&#8457";
 }
 
-document.getElementById("red").onclick = hotRed;
+document.getElementById("go2").onclick = calculateTempF;
 
-function hotRed() {
-  document.getElementById("all").style.color = "yellow";
-  document.getElementById("all").style.backgroundColor = "red";
-}
-
-document.getElementById("gray").onclick = netGray;
-
-function netGray() {
-  document.getElementById("all").style.color = "orange";
-  document.getElementById("all").style.backgroundColor = "gray";
+function calculateTempF() {
+	cels = document.getElementById("inputC").value;
+	fahr = document.getElementById("inputF").value;
+	var inputF = fahr;
+	answerF = ((fahr - 32) * 5) / 9;
+	/* ((fahr - 32) * 5) / 9*/
+	document.getElementById("xans").innerHTML = zero;
+	document.getElementById("yans").innerHTML = zero;
+	document.getElementById("xans").innerHTML = inputF + "&#8457";
+	document.getElementById("yans").innerHTML = answerF + "&#8451;";
 }

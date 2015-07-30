@@ -1,0 +1,59 @@
+body {
+	background: url("../images/background.jpg") repeat #d6d6d6;
+	color: #000000;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.7;
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 10px 0;
+	font-family: "Oswald", sans-serif;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a {
+	color: #ff3300;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#container {
+	width: 800px;
+	margin: auto;	
+}
+
+#header {
+	margin-bottom: 40px;
+}
+
+#main {
+	background: #FFF;
+	width: 760px;
+	padding: 20px;
+}
+
+.post {
+	margin-bottom: 50px;
+}
+
+.post-meta {
+	border-top: 1px dotted #000;
+	border-bottom: 2px solid #000;
+	display: block;
+}
+
+#footer {
+	padding: 40px;
+	text-align: center;
+}
+
