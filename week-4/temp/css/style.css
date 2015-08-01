@@ -10,7 +10,6 @@ button {
 }
 
 #wrapper {
-  display: inline;
   text-align: center;
 }
 
@@ -22,6 +21,12 @@ button {
   font-family: Helvetica, sans-serif;
   font-size: 272px;
   margin: 0 auto;
+}
+
+#jack h1 {
+  text-align: center;
+  font-size: 200px;
+
 }
 
 #answerhere {
