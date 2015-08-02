@@ -1,0 +1,63 @@
+body {
+	line-height: 1.8;
+}
+
+#wrapper {
+	width: 700px;
+	padding: 40px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Sue Ellen Francisco", Arial, sans-serif;
+	color: #333333;
+	font-size: 40px;
+}
+
+ul {
+	font-family: "Sue Ellen Francisco", Arial, sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+}
+
+ul li {
+	border-bottom: 2px dotted #9CE6C1;
+}
+
+input {
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px 0;
+	margin-right: 10px;
+	border: 1px solid #9CE6C1;
+	box-shadow: none;
+	padding: 10px;
+}
+
+#name {
+	width: 280px; 
+	float: left;
+}
+
+#grade {
+	width: 100px; 
+	float: left;
+}
+
+button {
+	width: 180px;
+	float: right;
+	font-family: monospace;
+	font-size: 20px;
+	margin: 20px 0;
+	border: 1px solid #9CE6C1;
+	box-shadow: none;
+	padding: 10px;
+}
+
+ul {
+	clear: both;
+}
