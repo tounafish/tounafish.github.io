@@ -12,6 +12,7 @@ header {
 	margin: 0 auto;
 	width: 960px;
 	position: fixed;
+	background-color: #258e4f;
 }
 
 nav a {
