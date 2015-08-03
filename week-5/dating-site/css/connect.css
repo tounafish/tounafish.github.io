@@ -66,14 +66,15 @@ header {
   	padding: 10px;
 }
 
-nav span, a {
+nav span {
 	float: left;
-	text-decoration: none;
-	width: 255px;
-	text-align: center;
+	width: 325px;
 }
 
 nav a {
+	float: left;
+	text-decoration: none;
+	width:210px;
 	padding: 28px 10px;
 	text-align: center;
 	font-weight: 400;
