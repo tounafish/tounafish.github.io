@@ -20,3 +20,14 @@ Ideas on how to do this:
    and starts over.
 
 */
+
+document.getElementById("clickme").onclick = submit;
+
+function submit() {
+	var name = document.getElementById("name").value;
+	var email = document.getElementById("email").value;
+	var reason = document.getElementById("reason").value;
+	var comment = document.getElementById("comment").value;
+	var answer = name+email+reason+comment;
+	document.getElementById("emailsent").innerHTML = answer;
+}
