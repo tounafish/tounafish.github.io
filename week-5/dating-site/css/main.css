@@ -1,24 +1,87 @@
 body {
 	background: #050719;
 	font-size: 12px;
+	font-family: "Oswald", Helvetica, sans-serif;
+	color: white;
 }
+
+h1 {
+	font-size: 10em;
+	font-weight: 700;
+}
+
+h2 {
+	float: left;
+	font-size: 3em;
+	font-weight: 400;
+	padding: 1px 10px;
+	margin-bottom: 0;
+	clear: both;
+}
+
+h3 {
+	display: inline-block;
+	font-size: 2.5em;
+	font-weight: 400;
+	padding: 1px 10px;
+	background-color: #444;
+	margin-bottom: 0;
+}
+
+
 
 header {
 	background-color: #258e4f;
+	background-image: url("../images/love_background-normal.jpg");
+	background-position: 0 -100px;
+	position: fixed;
+	width: 100%;
+}
 
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 #topnav {
 	margin: 0 auto;
-	width: 960px;
-	position: fixed;
-	background-color: #258e4f;
+	display: inline-block;
+	text-align: center;
+	height: 89px;
+	overflow: visible;
 }
 
-nav a {
+nav span, a {
 	float: left;
 	text-decoration: none;
 	width: 255px;
-	font-size: 2em;
+	text-align: center;
+}
+
+nav a {
+	padding: 28px 10px;
+	text-align: center;
+	font-weight: 400;
 	color: white;
+	font-size: 2em;
+}
+
+nav a:hover {
+	background-image: url(../images/exploding-hears.gif);
+	background-position: -200px 0px;
+	background-repeat: none;
+}
+
+#lefty {
+	float: left;
+	width: 35%;
+	margin-top: 150px;
+	padding-left: 30px;
+}
+
+#righty {
+	float: right;
+	width: 60%;
 }
