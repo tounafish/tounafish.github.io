@@ -11,18 +11,30 @@ h1 {
 	font-weight: 700;
 }
 
+.h1c {
+	font-size: 4em;
+	font-weight: 700;
+}
+
 h2 {
 	float: left;
 	font-size: 2.8em;
 	font-weight: 400;
 	padding: 1px 10px;
 	margin-bottom: 0;
-/*	clear: both;
-*/}
+}
+
+.h2c {
+	float: left;
+	font-size: 3em;
+	font-weight: 400;
+	padding: 1px 10px;
+	margin-bottom: 0;
+	clear: both;
+}
 
 h3 {
-/*	display: inline-block;
-*/	float: left;
+	float: left;
 	font-size: 2.5em;
 	font-weight: 400;
 	padding-left: 10px;
@@ -30,8 +42,14 @@ h3 {
 	background-color: #444;
 	margin-bottom: 0;
 	width: 45%;
-/*	margin-top: 0;
-*/
+}
+
+.h3c {
+	font-size: 2.5em;
+	font-weight: 400;
+	padding: 1px 10px;
+	background-color: #444;
+	margin-bottom: 0;
 }
 
 h4 {
@@ -40,8 +58,27 @@ h4 {
 	font-weight: 400;
 	padding: 1px 10px;
 	margin-bottom: 0;
-/*	clear: both;
-*/}
+}
+
+h5 {
+	clear: both;
+	font-size: .5em;
+	font-weight: 400;
+	padding: 10px;
+	margin: 10 0 20px 0;
+	background-color: #050719;
+}
+
+#clickme {
+	clear: both;
+	font-size: 2.1em;
+	font-weight: 400;
+	padding: 10px;
+	margin: 10 0 20px 0;
+	background-color: red;
+	float: left;
+}
+
 
 #someone {
 	margin-bottom: 0;
@@ -54,6 +91,12 @@ h4 {
 	margin-bottom: 0;
 	padding-right: 30px;
 	width: 89%;
+}
+
+input, select {
+	color: black;
+	float: left;
+	clear: both;
 }
 
 p {
@@ -126,7 +169,6 @@ nav a:hover {
 	width: 35%;
 	margin-top: 150px;
 	padding-left: 30px;
-	max-height: 655px;
 	overflow: scroll;
 }
 
@@ -140,4 +182,13 @@ nav a:hover {
 .cleary {
 	clear: both;
 	float: left;
+}
+
+#clickme {
+	background-color: red;
+	color: white;
+}
+
+#emailsent {
+	color: white;
 }

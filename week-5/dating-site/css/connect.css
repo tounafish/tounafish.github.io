@@ -1,11 +1,3 @@
-body {
-	background: #050719;
-	font-size: 12px;
-	font-family: "Oswald", Helvetica, sans-serif;
-	color: white;
-	margin: 0 auto;
-}
-
 h1 {
 	font-size: 4em;
 	font-weight: 700;
@@ -124,11 +116,6 @@ nav a:hover {
 #clickme {
 	background-color: red;
 	color: white;
-}
-
-.cleary {
-	clear: both;
-	float: left;
 }
 
 #emailsent {

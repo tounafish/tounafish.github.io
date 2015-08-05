@@ -40,27 +40,27 @@ document.getElementById("blue").onclick = bluer;
 document.getElementById("red").onclick = redr;
 
 function a10r() {
-	document.getElementById("out").innerHTML = out + num10;
+	document.getElementById("out").innerHTML = out += num10;
 }
 
 function a20r() {
-	document.getElementById("out").innerHTML = out + num20;
+	document.getElementById("out").innerHTML = out += num20;
 }
 
 function a30r() {
-	document.getElementById("out").innerHTML = out + num30;
+	document.getElementById("out").innerHTML = out += num30;
 }
 
 function n10r() {
-	document.getElementById("out").innerHTML = out - num10;
+	document.getElementById("out").innerHTML = out -= num10;
 }
 
 function n20r() {
-	document.getElementById("out").innerHTML = out - num20;
+	document.getElementById("out").innerHTML = out -= num20;
 }
 
 function n30r() {
-	document.getElementById("out").innerHTML = out - num30;
+	document.getElementById("out").innerHTML = out -= num30;
 }
 
 function redr() {
