@@ -21,15 +21,13 @@ Ideas on how to make it work:
 	9. When "out"  is clicked, it resets value to zero.
 */
 
-var a10;
-var a20;
-var a30;
-var n10;
-var n20;
-var n30;
-var out;
+var num10=10;
+var num20=20;
+var num30=30;
+var out=0;
 var red;
 var blue;
+var total;
 
 document.getElementById("out").onclick = reset;
 document.getElementById("a10").onclick = a10r;
@@ -42,55 +40,64 @@ document.getElementById("blue").onclick = bluer;
 document.getElementById("red").onclick = redr;
 
 function a10r() {
-	a10 = 10;
-	a20 = 20;
-	a30 = 30;
-	n10 = -10;
-	n20 = -20;
-	n30 = -30;
-	if (document.getElementById("a10").onclick){
-		total = out + a10;
-	}
-	else if {
-		document.getElementById("a20").onclick = out + a20;
-	}
-	else if {
-		document.getElementById("a30").onclick = out + a30;
-	}
-	else if {
-		document.getElementById("n10").onclick = out + n10;
-	}
-	else if {
-		document.getElementById("n20").onclick = out + n20;
-	}
-	else if {
-		document.getElementById("n30").onclick = out + n30;
-	}
-	else if {
-		document.getElementById("blue").onclick = document.style.background ("#444");
-	}
-	else if {
-		document.getElementById("red").onclick = document.style.background ("#aaa");
-	}
-	else {
-		document.getElementById("out").onclick = null;
-	}
-	document.getElementById("out").innerHTML = total;
+	document.getElementById("out").innerHTML = out + num10;
 }
 
+function a20r() {
+	document.getElementById("out").innerHTML = out + num20;
+}
+
+function a30r() {
+	document.getElementById("out").innerHTML = out + num30;
+}
+
+function n10r() {
+	document.getElementById("out").innerHTML = out - num10;
+}
+
+function n20r() {
+	document.getElementById("out").innerHTML = out - num20;
+}
+
+function n30r() {
+	document.getElementById("out").innerHTML = out - num30;
+}
+
+function redr() {
+	document.getElementById("out").style.background = "red";
+	document.getElementById("out").style.color = "white";
+
+}
+
+function bluer() {
+	document.getElementById("out").style.background = "blue";
+	document.getElementById("out").style.color = "white";
+
+}
+
+function reset() {
+	document.getElementById("out").innerHTML = "0";
+	document.getElementById("out").style.background = "white";
+	document.getElementById("out").style.color = "black";
+
+}
 
 /*
-document.getElementById("submit").onclick = addStudent;
+document.getElementById("submit").onclick = runningtotal;
   
-function addStudent() {
-  var name = document.getElementById("name").value;
-  var grade = document.getElementById("grade").value;
-  var seat = document.getElementById("seat").value;
-  createStudent(name, grade, seat);
+function runningtotal() {
+	var num10=10;
+	var num20=20;
+	var num30=30;
+	var out=0;
+	var red;
+	var blue;
+	var total;
+  	createStudent(name, grade, seat);
 }
 
 function createStudent(n, g, s) {
-  if(n == "Joe Bliss") {
+  if(num10 == 10) {
      document.body.innerHTML = document.body.innerHTML+"<h2>The teacher is:</h2>";
   }
   else {
