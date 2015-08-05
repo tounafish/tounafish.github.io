@@ -27,11 +27,23 @@ h3 {
 	margin-bottom: 0;
 }
 
-h4 {
-	font-size: 2em;
+#clickme {
+	clear: both;
+	font-size: 2.1em;
 	font-weight: 400;
-	padding: 1px 10px;
-	margin-bottom: 0;
+	padding: 10px;
+	margin: 10 0 20px 0;
+	background-color: red;
+	float: left;
+}
+
+h5 {
+	clear: both;
+	font-size: .5em;
+	font-weight: 400;
+	padding: 10px;
+	margin: 10 0 20px 0;
+	background-color: #050719;
 }
 
 
@@ -94,6 +106,7 @@ nav a:hover {
 	background-image: url(../images/exploding-hears.gif);
 	background-position: -200px 0px;
 	background-repeat: none;
+	text-decoration: none;
 }
 
 #lefty {
@@ -101,8 +114,6 @@ nav a:hover {
 	width: 35%;
 	margin-top: 150px;
 	padding-left: 30px;
-	max-height: 655px;
-	overflow: scroll;
 }
 
 #righty {

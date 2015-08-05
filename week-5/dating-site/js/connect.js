@@ -28,6 +28,5 @@ function submit() {
 	var email = document.getElementById("email").value;
 	var reason = document.getElementById("reason").value;
 	var comment = document.getElementById("comment").value;
-	var answer = name+email+reason+comment;
-	document.getElementById("emailsent").innerHTML = "Email Sent! <br>"+answer;
+	document.getElementById("emailsent").innerHTML = "Email Sent! <br>"+"<h5>"+name+"<br>"+email+"<br>"+reason+"<br>"+comment+"</h5>";
 }
