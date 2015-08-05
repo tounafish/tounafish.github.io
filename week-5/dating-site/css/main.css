@@ -62,7 +62,7 @@ h4 {
 
 h5 {
 	clear: both;
-	font-size: .5em;
+	font-size: 1em;
 	font-weight: 400;
 	padding: 10px;
 	margin: 10 0 20px 0;
@@ -105,6 +105,11 @@ p {
 	clear: both;
 	margin-left: 20px;
 	margin-top: 10px;
+}
+
+#photoscroll {
+	font-size: 2em;
+	color: yellow;
 }
 
 #apart {
@@ -164,11 +169,14 @@ nav a:hover {
 	background-repeat: none;
 }
 
+
+
 #lefty {
 	float: left;
 	width: 35%;
 	margin-top: 150px;
 	padding-left: 30px;
+	max-height: 655px;
 	overflow: scroll;
 }
 
