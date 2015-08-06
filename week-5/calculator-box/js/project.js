@@ -1,4 +1,4 @@
-/*
+1/*
 When each box is clicked the total is added or 
 subtracted from the middle box. 
 
@@ -81,37 +81,4 @@ function reset() {
 	document.getElementById("out").style.color = "black";
 
 }
-
-/*
-document.getElementById("submit").onclick = runningtotal;
-  
-function runningtotal() {
-	var num10=10;
-	var num20=20;
-	var num30=30;
-	var out=0;
-	var red;
-	var blue;
-	var total;
-  	createStudent(name, grade, seat);
-}
-
-function createStudent(n, g, s) {
-  if(num10 == 10) {
-     document.body.innerHTML = document.body.innerHTML+"<h2>The teacher is:</h2>";
-  }
-  else {
-    document.body.innerHTML = document.body.innerHTML+"<h2>The current student is:</h2>";
-  }
-   document.body.innerHTML = document.body.innerHTML+"<p>Name: "+n+"</p>";
-  
-  if (g < 2) {
-    document.body.innerHTML = document.body.innerHTML+"<p class=\"failing\">Grade: "+g+"</p>";    
-  }
-  else {
-    document.body.innerHTML = document.body.innerHTML+"<p>Grade: "+g+"</p>";
-  }
-  document.body.innerHTML = document.body.innerHTML+"<p>Seat Assignment: "+s+"</p>";
-}
-*/
 

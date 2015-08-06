@@ -32,6 +32,7 @@ function lookup() {
 
 function kitten() {
 	document.getElementById("qwe").src = "images/darth-vader-kitten_b.jpg";
+	
 }
 
 function atwork () {
