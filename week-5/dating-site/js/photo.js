@@ -32,7 +32,7 @@ function lookup() {
 }
 
 function kitten() {
-	document.getElementById("caption").innerHTML = "<h3>When I think about all the cats without a home, I feel sad for days.</h3>";
+	document.getElementById("caption").innerHTML = "<h3>When I think about all the cats without a home, I cry.</h3>";
 	document.getElementById("qwe").src = "images/darth-vader-kitten_b.jpg";
 }
 
