@@ -2,11 +2,33 @@
 	padding: 50px;
 	font-family: monospace;
 	width: 735px;
+	height: 650px;
 	margin: 0px auto;
+	background-color: #b3bbc3;
 }
 
 .clear {
 	clear: both;
+}
+
+#clear {
+	background-color: #edb012;
+}
+
+#plus, #minus, #divide, #times, #equal, #plus {
+	background-color: #343f45;
+}
+
+#out {
+	text-align: right;
+	width: 633px;
+	padding: 30px;
+	min-height: 50px;
+	border: 8px solid #252525;
+	float: left;
+	font-size: 40px;
+	margin: 10px;
+	background-color: #bcdaac;
 }
 
 .row div {
@@ -14,10 +36,13 @@
 	width: 100px;
 	padding: 30px;
 	min-height: 50px;
-	border: 1px dashed #252525;
+	border: 1px solid #252525;
 	float: left;
 	font-size: 40px;
-	margin: 10px
+	margin: 10px;
+	border-radius: 10px;
+	background-color: #636363;
+	color: white;
 }
 
 .row div:hover {
