@@ -7,8 +7,9 @@ body {
 }
 
 h1 {
-	font-size: 10em;
+	font-size: 5em;
 	font-weight: 700;
+	margin-bottom: 0;
 }
 
 .h1c {
@@ -223,6 +224,12 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 
+#target {
+	margin: 0 auto;
+	background-color: #444;
+}
+
 #emailsent {
 	color: white;
+	font-size: 40px;
 }

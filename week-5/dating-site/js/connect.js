@@ -28,5 +28,5 @@ function submit() {
 	var email = document.getElementById("email").value;
 	var reason = document.getElementById("reason").value;
 	var comment = document.getElementById("comment").value;
-	document.getElementById("righty").innerHTML = "<h1>Email Sent! </h1><br>"+"<h3>"+name+"<br>"+email+"<br>"+reason+"<br>"+comment+"</h3>";
+	document.getElementById("righty").innerHTML = "<h1>Email Sent! </h1><br>"+"<h3>Name: "+name+"<br>Email: "+email+"<br>Reason: "+reason+"<br>Comment: "+comment+"</h3>";
 }
