@@ -47,7 +47,7 @@ document.getElementById("a9").onclick = a9r;
 document.getElementById("a0").onclick = a0r;
 
 function a1r() {
-	document.getElementById("out").innerHTML = out += num1;
+	document.getElementById("out").innerHTML = out += num1;	
 }
 
 function a2r() {
