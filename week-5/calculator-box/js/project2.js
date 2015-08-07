@@ -33,6 +33,10 @@ var num9=9;
 var num0=0;
 var out=0;
 var total;
+var plus;
+var times;
+var divide;
+var minus;
 
 document.getElementById("clear").onclick = reset;
 document.getElementById("a1").onclick = a1r;
@@ -47,43 +51,47 @@ document.getElementById("a9").onclick = a9r;
 document.getElementById("a0").onclick = a0r;
 
 function a1r() {
-	document.getElementById("out").innerHTML = out += num1;	
+/*	document.getElementById("out").innerHTML = out += num1;	
+*/
+	document.getElementById("out").innerHTML = num1;	
 }
 
 function a2r() {
-	document.getElementById("out").innerHTML = out += num2;
+/*	document.getElementById("out").innerHTML = out += num2;
+*/
+	document.getElementById("out").innerHTML = num2;	
 }
 
 function a3r() {
-	document.getElementById("out").innerHTML = out += num3;
+	document.getElementById("out").innerHTML = out + num3;
 }
 
 function a4r() {
-	document.getElementById("out").innerHTML = out += num4;
+	document.getElementById("out").innerHTML = out + num4;
 }
 
 function a5r() {
-	document.getElementById("out").innerHTML = out += num5;
+	document.getElementById("out").innerHTML = out + num5;
 }
 
 function a6r() {
-	document.getElementById("out").innerHTML = out += num6;
+	document.getElementById("out").innerHTML = out + num6;
 }
 
 function a7r() {
-	document.getElementById("out").innerHTML = out += num7;
+	document.getElementById("out").innerHTML = out + num7;
 }
 
 function a8r() {
-		document.getElementById("out").innerHTML = out += num8;
+		document.getElementById("out").innerHTML = out + num8;
 }
 
 function a9r() {
-		document.getElementById("out").innerHTML = out += num9;
+		document.getElementById("out").innerHTML = out + num9;
 }
 
 function a0r() {
-		document.getElementById("out").innerHTML = out += num0;
+		document.getElementById("out").innerHTML = out + num0;
 }
 
 function reset() {
