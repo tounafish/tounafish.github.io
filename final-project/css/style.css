@@ -1,0 +1,12 @@
+/*style.css*/
+body {
+	background-color: black;
+}
+
+#topnav {
+	width:100%;
+	float:left;
+	margin: 0px;
+	padding: 40px;
+	background-color: #444;
+}
