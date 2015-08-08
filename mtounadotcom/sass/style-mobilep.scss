@@ -1,0 +1,97 @@
+@import 'vars';
+@import 'mixins';
+
+/*
+	Catalyst by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
+*/
+
+/* Basic */
+	
+	html, body {
+		min-width: 320px;
+	}
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		br {
+			display: none;
+		}
+	}
+
+	h2 {
+		font-size: 1.15em;
+		line-height: 1.75em;
+	}
+
+	h3 {
+		font-size: 1em;
+		line-height: 1.5em;
+	}
+	
+/* List */
+
+	ul {
+		&.actions {
+			margin: 0 0 $size-element-margin 0;
+			
+			li {
+				display: block;
+				padding: ($size-element-margin * 0.5) 0 0 0;
+				text-align: center;
+				width: 100%;
+				
+				&:first-child {
+					padding-top: 0;
+				}
+				
+				> * {
+					margin: 0 !important;
+					width: 100%;
+					
+					&.icon {
+						&:before {
+							margin-left: -2em;
+						}
+					}
+				}
+			}
+			
+			&.small {
+				li {
+					padding: ($size-element-margin * 0.25) 0 0 0;
+
+					&:first-child {
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		padding: 0;
+	}
+	
+/* One */
+
+	#one {
+		.device {
+			border-width: 15px;
+			
+			&:after {
+				height: 5px;
+				margin: -10px 0 0 -2.5px;
+				width: 5px;			
+			}
+		}
+	}
