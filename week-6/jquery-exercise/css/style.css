@@ -1,0 +1,12 @@
+p {
+	width: 80px;
+	height: 80px;
+	background-color: aqua;
+	float: left;
+	margin: 2px;
+	overflow: hidden;
+}
+
+#paragraph1 {
+	display:none;
+}

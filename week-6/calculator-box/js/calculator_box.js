@@ -38,4 +38,10 @@ $(document).ready(function(){
 		$("#out").css("background-color", "white");
 	});
 
+	$("#out").click(function(){
+		total = 0;
+		$("#out").html(total);	
+
+	})
+
 });
