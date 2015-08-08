@@ -1,6 +1,7 @@
 /*style.css*/
 body {
 	background-color: black;
+	background-image: url(../images/bg_dark_8.png);
 }
 
 #topnav {
@@ -8,5 +9,9 @@ body {
 	float:left;
 	margin: 0px;
 	padding: 40px;
-	background-color: #444;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
 }
