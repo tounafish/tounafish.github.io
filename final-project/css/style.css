@@ -2,16 +2,30 @@
 body {
 	background-color: black;
 	background-image: url(../images/bg_dark_8.png);
+	font-family: Helvetica;
 }
 
 #topnav {
 	width:100%;
 	float:left;
 	margin: 0px;
-	padding: 40px;
 }
 
 .center {
 	margin: 0 auto;
 	text-align: center;
+}
+
+#logo{
+	width:50%;
+	margin-bottom: 40px;
+}
+
+a {
+	color: white;
+	padding: 20px 40px;
+	text-transform: uppercase;
+	background-color: #123456;
+	border-radius: 10px;
+	margin: 0 15px;
 }
