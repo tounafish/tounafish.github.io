@@ -1,0 +1,32 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+.slide {
+	margin: 50px;
+	padding: 10px;
+	background-color: #abcd12;
+	color: white;
+	display: none;
+}
+
+.slide.current {
+	display: block;
+}
+
+#navigation nav a {
+	color: #666666;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#navigation nav a.current {
+	color: #abcd12;
+}
+
+
+
