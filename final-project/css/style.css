@@ -18,8 +18,22 @@ body {
 
 #logo{
 	width:50%;
-	margin-bottom: 40px;
+	margin: 20px auto;
+	position: fixed;
+	top:0;
+	left:25%;
 }
+
+.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+.float {
+	float:center;
+	display: block;
+}
+
 
 a {
 	color: white;
@@ -29,3 +43,17 @@ a {
 	border-radius: 10px;
 	margin: 0 15px;
 }
+
+.uimage {
+	clear: both;
+	width:70%;
+	min-height: 100px;
+	background-color: #444;
+	margin-top: 200px;
+}
+
+
+
+
+
+
