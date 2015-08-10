@@ -66,8 +66,8 @@ $("#id selector").each(function(index, element) {
 
 $("selector").fn1().fn2().fn3()
 
-var pasteimage = $(".pasteurl").value();
-$("#blowupbox").src(pasteimage);
+//var pasteimage = $(".pasteurl").value();
+//$("#blowupbox").src(pasteimage);
 
 
 Altering Content
@@ -80,6 +80,30 @@ $("selector").detach();
 $("change").replaceAll("#example tag[id]");
 $("change").replaceWith();
 $("selector").replaceWith(replacementFn);
+
+
+$("selector").attr("attribute");
+$("selector").attr("attribute", "value to set");
+//$("selector").attr({ attribute: "thing1", attribute: "thing2" });
+$("selector").removeAttr("attribute");
+
+CSS
+.css()
+hasClass(className)
+addClass()
+removeClass(className)
+toggleClass(className)
+//$("selector").height("value");
+//$("selector").width("value");
+$("selector").innerHeight("value");
+$("selector").outerHeight("value");
+$("selector").innerWidth("value");
+$("selector").outerWidth("value");
+$("selector").offset().top("value");
+$("selector").offset().left("value");
+$("selector").position().top("value");
+$("selector").poeition().left("value");
+
 
 
 
