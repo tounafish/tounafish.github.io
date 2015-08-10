@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$("button").click(function(){
-		var val = $(".uimage").value();
-		$("uimage").HTML(val);
+		var pasteimage = $("#userpaste").value();
+		$("#blowupbox").src(pasteimage);
 	});
 });
 		
