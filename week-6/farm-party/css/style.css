@@ -1,10 +1,25 @@
 body {
 	background-image: url("../images/backgrounds-assets/farm.jpg");
-	background-position: fixed;
+	background-position: 100%;
 }
 
 #pinky {
 	margin-top: 40%;
+	position: relative; 
+	left: 10px;
+}
+
+#whitey {
+	margin-top: 40%;
+	position: relative; 
+	left: 90px;
+}
+
+#sunny {
+	margin-top: 10%;
+	margin-left:60%;
+	position: relative; 
+	left: 0px;
 }
 
 #cart {

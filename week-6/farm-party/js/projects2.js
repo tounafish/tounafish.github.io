@@ -5,4 +5,3 @@ $( document ).ready(function() {
 	function move() {
 		$(this).animate({ "top": "100%", "left": "100%" }, 2000);
 	};
-
