@@ -3,5 +3,9 @@ $( document ).ready(function() {
 	});
 
 	function move() {
-		$(this).animate({ "top": "100%", "left": "100%" }, 2000);
+		$(this).animate({ "top": "90%", "left": "90%" }, 2000, complete);
 	};
+
+	function complete(){
+		$(this).animate({ "top": "0%", "left": "0%" }, 100);
+};
