@@ -1,4 +1,13 @@
 body {
 	background-image: url("../images/backgrounds-assets/farm.jpg");
-	background-size: 100%;
+	background-position: fixed;
+}
+
+#pinky {
+	margin-top: 40%;
+}
+
+#cart {
+	top: 492px;
+	margin-left: 354px;
 }
