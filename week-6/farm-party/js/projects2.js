@@ -4,8 +4,8 @@ $( document ).ready(function() {
 
 	function move() {
 		$(this).animate({
-    "height": "70px", 
-    "width": "20px"
-  }, 200); 
+    	"top": "100%",
+   		"left": "100%"
+  }, 2000); 
 	};
 
