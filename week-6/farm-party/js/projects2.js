@@ -4,9 +4,14 @@ $( document ).ready(function() {
 	$("button[id]").click(backgrounde);
 	});
 
+
 	function backgrounde() {
-		$("img[id]").toggle("swing");
-		$("div.fixed").removeClass("display");
+		var num = $(this).index();
+		$("img").eq(num).toggle("swing");
+		$("img").eq(num).elem.next().removeClass("display");
+		$("img").attr("src", "images/backgrounds-assets/ocean.jpg");
+	  	$("img").attr("alt", "doggy in the window");
+		/*$("selector").removeAttr("attribute");*/
 	};
 
 	function move() {
@@ -14,6 +19,5 @@ $( document ).ready(function() {
 	};
 
 	function complete(){
-		$(this).animate({ "right": "100%" }, 0);
+		$(this).animate({ "left": "0%" }, 0);
 	};
-

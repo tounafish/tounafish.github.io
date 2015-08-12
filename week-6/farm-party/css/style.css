@@ -1,8 +1,32 @@
 body {
 	margin: 0 auto;
 	font-family: 'Orbitron', sans-serif;
+	font-size: 12px;
 }
 
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: .5em;
+}
+
+p {
+	font-size: .75em;
+}
 .moveit {
 	float: left;
 }
@@ -30,9 +54,9 @@ body {
 	margin-left: 354px;
 }
 
-.display {
+/*.display {
 	display: none;
-}
+}*/
 
 .fixed {
 	float: left;
