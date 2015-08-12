@@ -1,10 +1,10 @@
 $( document ).ready(function() {
 	$(".moveit").hover(move);
-	$("#button").click(backgrounde);
+	$("img[id]").click(backgrounde);
 	});
 
 	function backgrounde() {
-		$("img[id]").toggle("swing");
+		$(this).toggle("swing");
 		$("div.fixed").removeClass("display");
 	};
 
