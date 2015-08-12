@@ -1,22 +1,29 @@
-body {
+/*body {
 	background-image: url("../images/backgrounds-assets/farm.jpg");
-	background-position: 100%;
+	background-position: 100% 100% cover;
+}*/
+
+.moveit {
+	float: left;
+	background-color: red;
 }
 
 #pinky {
-	margin-top: 40%;
-	position: relative; 
+	margin-top: 45%;
+	position: fixed; 
 	left: 10px;
 }
 
 #whitey {
 	margin-top: 40%;
+	float:left;
 	position: relative; 
 	left: 90px;
 }
 
 #sunny {
 	margin-top: 10%;
+	float:left;
 	margin-left:60%;
 	position: relative; 
 	left: 0px;
@@ -26,3 +33,21 @@ body {
 	top: 492px;
 	margin-left: 354px;
 }
+
+.display {
+		display: none;
+}
+
+.fixed {
+	float: left;
+	position: 0 0;
+	margin: 0 auto;
+	padding: 0;
+	width:100%;
+}
+
+
+
+
+
+
