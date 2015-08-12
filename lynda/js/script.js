@@ -102,10 +102,29 @@ $("selector").outerWidth("value");
 $("selector").offset().top("value");
 $("selector").offset().left("value");
 $("selector").position().top("value");
-$("selector").poeition().left("value");
+$("selector").position().left("value");
 
-
-
+ANIMATION
+$("selector").show("value");
+$("selector").hide("value");
+$("selector").toggle(duration, "swing/linear", completion);
+   function completion {
+	$(this).property("");
+   }
+$("selector").fadeIn("normal/slow/fast", opacity);
+$("selector").fadeOut();
+$("selector").fadeTo();
+$("puslate").fadeTo(300, 0.3)
+			 .fadeTo(300, 1.0)
+			 .fadeTo(300, 0.3)
+			 .fadeTo(300, 1.0);			 
+$("selector").slideUp("normal/slow/fast", "swing/linear");
+$("selector").slideDown("normal/slow/fast", "swing/linear");
+$("selector").slideToggle("normal/slow/fast", "swing/linear");
+console.log(this.property); writes to Console of dev tools
+$("selector").animate({ property: "value", property: "value" }, duration, easing, complete);
+  					 ({ property: "value" }, ms/slow/fast, swing/linear);
+$("selector").animate(property, parameters);
 
 
 
