@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-	$(".moveit").hover(move);
+	$(".moveit").mouseover(move);
+	$(".moveit").mouseleave(complete)
 	$("button[id]").click(backgrounde);
 	});
 
@@ -9,10 +10,10 @@ $( document ).ready(function() {
 	};
 
 	function move() {
-		$(this).animate({ "top": "0", "left": "1600px" }, 2000, complete);
+		$(this).animate({ "top": "0%", "left": "100%" }, 2000);
 	};
 
 	function complete(){
-		$(this).animate({ "top": "0", "left": "0" }, 0);
+		$(this).animate({ "right": "100%" }, 0);
 	};
 
