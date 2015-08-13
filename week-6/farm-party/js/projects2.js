@@ -1,26 +1,26 @@
 $( document ).ready(function() {
 	$(".moveit").mouseover(move);
-	$(".moveit").mouseleave(complete)
+	$(".moveit").mouseleave(complete);
 	$("button[class]").click(backgrounde);
+	$("#sunny").mouseover(sunmove);
 	});
 
 
 	function backgrounde() {
 		var num = $(this).index();
-		// $("img").eq(num).toggle("swing");
-		// $("img").eq(num).elem.next().removeClass("display");
-		// $("img").attr("src", "images/backgrounds-assets/ocean.jpg");
-	 	//$("img").attr("alt", "doggy in the window");
-		/*$("selector").removeAttr("attribute");*/
-		/*console.log(num);*/
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
-	};
+	}
 
 	function move() {
-		$(this).animate({ "top": "0%", "left": "100%" }, 2000);
-	};
+		$(this).animate({ left: "100%" }, 2000);
+	}
 
-	function complete(){
-		$(this).animate({ "left": "0%" }, 0);
-	};
+	function complete() {
+		$(this).animate({ left: "100%" }, 0);
+	}
+
+	function sunmove() {
+		$("#sunny").animate({ top: "100%" }, 4000)
+				   .animate({ top: "70px" }, 400);
+	}

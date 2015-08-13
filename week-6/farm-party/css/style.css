@@ -96,7 +96,10 @@ img {
     background-size:100% 100%;
 }
 
-
+#sunny {
+	float: center;
+	position: 600px, 400px;
+}
 
 
 
