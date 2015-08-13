@@ -73,7 +73,20 @@ p {
 	color: #3498db;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 20px;
+}
+
+.buttonB {
+	background-color: #e67e22;
+/*	text-transform: uppercase;
+*/	font-family: 'Orbitron', sans-serif;
+	font-size: .75em;
+	color: white;
 	padding: 10px;
+}
+
+.buttonB:hover {
+	background-color: #e74c3c;
 }
 
 

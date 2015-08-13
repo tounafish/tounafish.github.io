@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	$(".moveit").mouseover(move);
 	$(".moveit").mouseleave(complete)
-	$("button[id]").click(backgrounde);
+	$("button[class]").click(backgrounde);
 	});
 
 
