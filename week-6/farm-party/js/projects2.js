@@ -21,6 +21,6 @@ $( document ).ready(function() {
 	}
 
 	function sunmove() {
-		$("#sunny").animate({ top: "100%" }, 4000)
-				   .animate({ top: "70px" }, 400);
+		$("#sunny").animate({ top: "65%", width: "220%" }, 4000)
+				   /*.animate({ top: "70px" }, 400);*/
 	}
