@@ -10,6 +10,7 @@ $( document ).ready(function() {
 		var num = $(this).index();
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
+		$("#sunny").css("margin-left", (num += 1) * "161");
 	}
 
 	function move() {
@@ -21,8 +22,16 @@ $( document ).ready(function() {
 	}
 
 	function sunmove() {
-		$("#sunny").animate({ top: "65%", width: "220%" }, 4000)
+		$("#sunny").animate({ top: "65%", width: "220%" }, 4000);
 	}
+
+
+
+/*		function sunmove() {
+		var movesun = (index of the button clicked + 1) * 100;
+		$("#sunny").animate({ top: var }, 4000);
+	}*/
+
 
 
 	// I did not write this part. I copied it from Stackoverflow. 
