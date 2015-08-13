@@ -25,7 +25,11 @@ h5 {
 }
 
 p {
-	font-size: .75em;
+	font-size: .7em;
+	text-transform: uppercase;
+	font-family: 'Orbitron', sans-serif;
+	font-size: .7em;
+	color: #7f8c8d;
 }
 .moveit {
 	float: left;
@@ -34,12 +38,14 @@ p {
 #pinky {
 	position: fixed; 
 	left: 10px;
+	margin-top: 150px;
 }
 
 #whitey {
 	float:left;
 	position: fixed; 
 	left: 90px;
+	margin-top: 360px;
 }
 
 #sunny {
@@ -48,7 +54,6 @@ p {
 	position: fixed; 
 	left: 0px;
 }
-
 
 .hide {
 	display: none;
@@ -75,11 +80,7 @@ p {
 
 .buttonB {
 	background-color: #ecf0f1;
-	text-transform: uppercase;
-	font-family: 'Orbitron', sans-serif;
-	font-size: .7em;
-	color: #7f8c8d;
-	padding: 10px;
+	padding: 0px 10px;
 	border-radius: 15px;
 	border: 2px solid #3498db;
 }
