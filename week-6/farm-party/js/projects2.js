@@ -24,3 +24,6 @@ $( document ).ready(function() {
 		$("#sunny").animate({ top: "65%", width: "220%" }, 4000)
 				   /*.animate({ top: "70px" }, 400);*/
 	}
+
+
+
