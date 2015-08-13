@@ -7,11 +7,14 @@ $( document ).ready(function() {
 
 	function backgrounde() {
 		var num = $(this).index();
-		$("img").eq(num).toggle("swing");
-		$("img").eq(num).elem.next().removeClass("display");
-		$("img").attr("src", "images/backgrounds-assets/ocean.jpg");
-	  	$("img").attr("alt", "doggy in the window");
+		// $("img").eq(num).toggle("swing");
+		// $("img").eq(num).elem.next().removeClass("display");
+		// $("img").attr("src", "images/backgrounds-assets/ocean.jpg");
+	 	//$("img").attr("alt", "doggy in the window");
 		/*$("selector").removeAttr("attribute");*/
+		/*console.log(num);*/
+		$(".fixeded").addClass("hide");
+		$("#back" + num).removeClass("hide");
 	};
 
 	function move() {
