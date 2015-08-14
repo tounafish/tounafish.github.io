@@ -10,7 +10,7 @@ $( document ).ready(function() {
 		var num = $(this).index();
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
-		$("#sunny").css("margin-left", (num += 1) * "161");
+		$("#sunny").css("margin-left", (num += 1) * "165");
 	}
 
 	function move() {
