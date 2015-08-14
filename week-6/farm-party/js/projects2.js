@@ -23,6 +23,7 @@ $( document ).ready(function() {
 
 	function sunmove() {
 		$("#sunny").animate({ top: "65%", width: "220%" }, 4000);
+		$("#sunny").animate({ top: "10%", width: "220%" }, 1000);
 	}
 
 
