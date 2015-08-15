@@ -32,7 +32,6 @@ $( document ).ready(function() {
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
 	        } else if (num == 5) /*bomb*/ {
 	        	$("#sunny").css("left", "35px").css("top", "150px");
-	        	
 	        	$("#sunny").animate({ top: "90%" }, 100).animate({ left: "90%" }, 100).animate({ top: "0%" }, 100).animate({ left: "00%" }, 100);
 	        } else if (num == 6) /*speedracer*/ {
 	        	$("#sunny").css("left", "0px").css("top", "91px");
