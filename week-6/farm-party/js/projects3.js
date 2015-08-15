@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 /*	$(".moveit").mouseover(move);
 	$(".moveit").mouseleave(complete);*/
-	$("button[class]").click(backgrounde);
-	$("#sunny").mouseover(sunmove);
+	$("button").click(backgrounde);
+	// $("#sunny").mouseover(sunmove);
 	});
 
 
@@ -11,38 +11,38 @@ $( document ).ready(function() {
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
 	        if (num == 0) /*farm*/ {
-	        	$("#sunny").css("left", "0px").css("top", "91px").css("z-index", "10");
-	        	$("#sunny").css("margin-left", "550px");
+	        	$("#sunny").stop().clearQueue();
+	        	$("#sunny").css("left", "550px").css("top", "91px");
 	        	$("#sunny").animate({ top: "350px" }, 1000).animate({ top: "600px" }, 2000);
 	    	} else if (num == 1) /*ocean*/ {
-	    		$("#sunny").css("left", "0px").css("top", "91px").css("z-index", "10");
+	        	$("#sunny").stop().clearQueue();
 	    		$("#sunny").css("left", "81px").css("top", "91px");
-	        	
 	        	$("#sunny").animate({ top: "500px" }, 1000).animate({ left: "100%" }, 1000);
 	 		} else if (num == 2) /*space*/ {
+	        	$("#sunny").stop().clearQueue();
 	 			$("#sunny").css("left", "0px").css("top", "91px");
 	        	$("#sunny").animate({ top: "480px", left: "1150px" }, 500)
 	        				.animate({ top: "300px", left: "1000px" }, 500)
 	        				.animate({ top: "280px", left: "900px" }, 500);
 	        } else if (num == 3) /*miley*/ {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
+	        	$("#sunny").stop().clearQueue();
 	        	$("#sunny").css("left", "650px").css("top", "91px");
 	        	$("#sunny").animate({ top: "420px" }, 2000);
 	        } else if (num == 4) /*bobross*/ {
-	        	$("#sunny").css("left", "0px").css("top", "91px").css("z-index", "10");
+	        	$("#sunny").stop().clearQueue();
 	        	$("#sunny").css("margin-left", "570px");
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
 	        } else if (num == 5) /*bomb*/ {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
+	        	$("#sunny").stop().clearQueue();
 	        	$("#sunny").css("left", "35px").css("top", "150px");
 	        	$("#sunny").animate({ top: "90%" }, 100).animate({ left: "90%" }, 100).animate({ top: "0%" }, 100).animate({ left: "00%" }, 100);
 	        } else if (num == 6) /*speedracer*/ {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "900px");
+	        	$("#sunny").stop().clearQueue();
+	        	$("#sunny").css("left", "900px").css("top", "91px");
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
 	        } else {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "200px");
+	        	$("#sunny").stop().clearQueue();
+	        	$("#sunny").css("left", "200px").css("top", "91px");
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);		
 		}
 	}
@@ -73,13 +73,13 @@ $( document ).ready(function() {
 	// I'm not sure about this part: {'rotate(' + degree + 'deg)'}.
 	// It's not a CSS property I'm aware of.
 	// "timer" increases degree by one each time and controls the speed.
-    var degree = 0, timer;
-    rotating();
-    function rotating() {
-        $("#test").css({ WebkitTransform: 'rotate(' + degree + 'deg)'});  
-        $("#test").css({ '-moz-transform': 'rotate(' + degree + 'deg)'});                      
-        timer = setTimeout(function() {
-            ++degree; rotating(); },75);
-    	}
+    // var degree = 0, timer;
+    // rotating();
+    // function rotating() {
+    //     $("#test").css({ WebkitTransform: 'rotate(' + degree + 'deg)'});  
+    //     $("#test").css({ '-moz-transform': 'rotate(' + degree + 'deg)'});                      
+    //     timer = setTimeout(function() {
+    //         ++degree; rotating(); },75);
+    // 	}
 
 

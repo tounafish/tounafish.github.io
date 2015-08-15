@@ -55,20 +55,31 @@ section.banner {
 }
 div.blurb {
 	float: right;
-	width: 40%;
-	background-color: white;
-	opacity: 50%;
+	width: 30%;
+	background-color: rgba(255, 255, 255, .8);
 	margin: 20px;
 	padding: 30px;
 	border-radius: 10px;
+	border: lime solid 5px;
 }
 
 div.blurb h2 {
 	font-size: 24px;
-	color: lime;
+}
+
+div.blurb p {
+	font-size: 16px;
+	line-height: 1.2em;
 }
 
 section.callouts {
 	clear: both;
 }
+
+section.callout {
+	float: left;
+	width: 33.3333%;
+}
+
+
 
