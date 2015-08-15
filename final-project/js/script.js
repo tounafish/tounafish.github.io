@@ -32,7 +32,23 @@ Goals of the javascript and ideas on how to do it:
 		a. An input field with an id
 		b. Validate if it's an image by looking for the words
 			".jpg" or ".png"
-		c. 
+		c. If not, HTML statement stating you need an image link
+		d. If yes, the url of the background-image is replaced 
+			with user input
+
+3. Image placed into small boxes
+	a. user's image is then placed into small css boxes at
+		different positions
+
+	Ideas on How to Do It:
+		a. when the user clicks the button to enter the 
+			image link, the actually image is treated like
+			a sprite
+		b. the background image of each css back is set to 
+			the image with diffrent background positions
+
+4. Small boxes are animated to bounce off walls until it
+	settle at the bottom of the screen
 
 
 
