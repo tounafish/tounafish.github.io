@@ -54,6 +54,7 @@ p {
 	position: fixed; 
 	left: 0px;
 	top: 91px;
+	z-index: 10;
 }
 
 #test {
