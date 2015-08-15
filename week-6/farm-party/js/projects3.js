@@ -20,14 +20,12 @@ $( document ).ready(function() {
 	        	$("#sunny").animate({ top: "500px" }, 1000).animate({ left: "100%" }, 1000);
 	 		} else if (num == 2) /*space*/ {
 	 			$("#sunny").css("left", "0px").css("top", "91px");
-/*	     
-*/	        	$("#sunny").animate({ top: "480px", left: "1150px" }, 500)
+	        	$("#sunny").animate({ top: "480px", left: "1150px" }, 500)
 	        				.animate({ top: "300px", left: "1000px" }, 500)
 	        				.animate({ top: "280px", left: "900px" }, 500);
 	        } else if (num == 3) /*miley*/ {
 	        	$("#sunny").css("left", "650px").css("top", "91px");
-/*	        	$("#sunny").css("margin-left", "600px");
-*/	        	$("#sunny").animate({ top: "420px" }, 2000);
+	        	$("#sunny").animate({ top: "420px" }, 2000);
 	        } else if (num == 4) /*bobross*/ {
 	        	$("#sunny").css("left", "0px").css("top", "91px");
 	        	$("#sunny").css("margin-left", "570px");
