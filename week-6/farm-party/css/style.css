@@ -53,20 +53,25 @@ p {
 	float:left;
 	position: fixed; 
 	left: 0px;
+	top: 91px;
+	background-color: red;
+}
+
+#test {
+	z-index: 10;
 }
 
 .hide {
 	display: none;
 }
 
-.fixed {
-	float: left;
-	background-position: fixed;
-	position: 0 0;
-	margin: 0 auto;
-	padding: 0;
-	background-repeat:no-repeat;
-    background-size:100% 100%;
+.fixeded {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    position: absolute;
 }
 
 #button {
@@ -88,6 +93,27 @@ p {
 
 .buttonB:hover {
 	background-color: #bdc3c7;
+}
+
+#farmpng {
+	position:absolute;
+    top: 470px;
+    left: 0px;
+    z-index: 30;
+}
+
+#oceanpng {
+	position:absolute;
+    top: 407px;
+    left: 0px;
+    z-index: 30;
+}
+
+#bobrosspng {
+	position:absolute;
+    top: 37px;
+    left: 0px;
+    z-index: 30;
 }
 
 

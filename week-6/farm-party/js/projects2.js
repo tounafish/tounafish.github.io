@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-	$(".moveit").mouseover(move);
-	$(".moveit").mouseleave(complete);
+/*	$(".moveit").mouseover(move);
+	$(".moveit").mouseleave(complete);*/
 	$("button[class]").click(backgrounde);
 	$("#sunny").mouseover(sunmove);
 	});
@@ -10,20 +10,35 @@ $( document ).ready(function() {
 		var num = $(this).index();
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
-		$("#sunny").css("margin-left", (num += 1) * "165");
+        if (num == 0) {
+        	$("#sunny").css("margin-left", (num += 1) * "25");
+    	} else if (num == 1) {
+        	$("#sunny").css("margin-left", (num += 1) * "50");
+ 		} else if (num == 2) {
+        	$("#sunny").css("margin-left", (num += 1) * "75");
+        } else if (num == 3) {
+        	$("#sunny").css("margin-left", (num += 1) * "100");
+        } else if (num == 4) {
+        	$("#sunny").css("margin-left", (num += 1) * "125");
+        } else if (num == 5) {
+        	$("#sunny").css("margin-left", (num += 1) * "150");
+        } else if (num == 6) {
+        	$("#sunny").css("margin-left", (num += 1) * "175");
+        } else {
+        	$("#sunny").css("margin-left", (num += 1) * "200");		
 	}
+}
 
-	function move() {
+/*	function move() {
 		$(this).animate({ left: "100%" }, 1500);
 	}
 
 	function complete() {
 		$(this).animate({ left: "100%" }, 0);
-	}
+	}*/
 
 	function sunmove() {
-		$("#sunny").animate({ top: "65%", width: "220%" }, 4000);
-		$("#sunny").animate({ top: "10%", width: "220%" }, 1000);
+		$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
 	}
 
 

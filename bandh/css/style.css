@@ -1,0 +1,39 @@
+body, h1, h2, h3, h4 {
+	font-family: Helvetica;
+	font-size: 18px;
+	margin: 0 20px;
+	padding: 2px;
+}
+
+strong {
+	color: "red";
+	font-size: 2em;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #003366;
+	padding: 0;
+	margin-top: 20px;
+	font-size: 1.25em;
+}
+
+span.bold {
+	font-weight: bold;
+	color: #333333;
+}
+
+span.normal {
+	color: #333333;
+}
+
+span.extrabold {
+	font-weight: bolder;
+	color: black;
+	font-size: 1.2em;
+}
+
+hr {
+	margin-left: 20px;
+	width: 50%;
+}
