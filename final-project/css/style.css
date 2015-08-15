@@ -50,6 +50,10 @@ a {
 	min-height: 100px;
 	background-color: #444;
 	margin-top: 200px;
+	 /*background: url("") center no-repeat;*/
+	 background-image: url("");
+	 background-size: cover;
+	 height: 100%;
 }
 
 

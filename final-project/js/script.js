@@ -36,6 +36,7 @@ Goals of the javascript and ideas on how to do it:
 		d. If yes, the url of the background-image is replaced 
 			with user input
 
+
 3. Image placed into small boxes
 	a. user's image is then placed into small css boxes at
 		different positions
@@ -47,13 +48,14 @@ Goals of the javascript and ideas on how to do it:
 		b. the background image of each css back is set to 
 			the image with diffrent background positions
 
-4. Small boxes are animated to bounce off walls until it
-	settle at the bottom of the screen
 
-
-
-
-
+4. Small boxes are animation
+	a. the css boxes will be be all move in different directions
+	b. the duration (or speed) will be determined by user's 
+		dynamite input
+	c. the css boxes will bounce off the edge of the screen
+	d. they will slow down until they settle at the bottom of
+		the screen
 
 
 
@@ -68,12 +70,9 @@ Goals of the javascript and ideas on how to do it:
 
 
 $( document ).ready(function() {
-	$("button").click(function(){
-		var pasteimage = $("#userpaste").val(jack)
-	};
-
-	function jack {
-		$("#blowupbox").src(pasteimage);
-	};
-});
-		
+	$("#clickme").click(function(){
+	/*  $("#changeme").attr("src", $("#getme").val());
+	*/
+	  $("html").css("background-image", "url("+$("#getme").val()+")");
+	});
+		});
