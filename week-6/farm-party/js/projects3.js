@@ -15,6 +15,7 @@ $( document ).ready(function() {
 	        	$("#sunny").css("margin-left", "550px");
 	        	$("#sunny").animate({ top: "350px" }, 1000).animate({ top: "600px" }, 2000);
 	    	} else if (num == 1) /*ocean*/ {
+	    		$("#sunny").css("left", "0px").css("top", "91px");
 	    		$("#sunny").css("left", "81px").css("top", "91px");
 	        	
 	        	$("#sunny").animate({ top: "500px" }, 1000).animate({ left: "100%" }, 1000);
