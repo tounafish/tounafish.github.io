@@ -10,31 +10,33 @@ $( document ).ready(function() {
 		var num = $(this).index();
 		$(".fixeded").addClass("hide");
 		$("#back" + num).removeClass("hide");
-	        if (num == 0) {
+	        if (num == 0) /*farm*/ {
 	        	$("#sunny").css("left", "0px").css("top", "91px");
 	        	$("#sunny").css("margin-left", "550px");
 	        	$("#sunny").animate({ top: "350px" }, 1000).animate({ top: "600px" }, 2000);
-	    	} else if (num == 1) {
-	    		$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "180px");
-	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ left: "100%" }, 1000);
-	 		} else if (num == 2) {
+	    	} else if (num == 1) /*ocean*/ {
+	    		$("#sunny").css("left", "81px").css("top", "91px");
+	        	
+	        	$("#sunny").animate({ top: "500px" }, 1000).animate({ left: "100%" }, 1000);
+	 		} else if (num == 2) /*space*/ {
 	 			$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "800px");
-	        	$("#sunny").animate({ top: "65px", left: "400px" }, 1000).animate({ top: "10%" }, 1000);
-	        } else if (num == 3) {
+/*	     
+*/	        	$("#sunny").animate({ top: "480px", left: "1150px" }, 500)
+	        				.animate({ top: "300px", left: "1000px" }, 500)
+	        				.animate({ top: "280px", left: "900px" }, 500);
+	        } else if (num == 3) /*miley*/ {
+	        	$("#sunny").css("left", "650px").css("top", "91px");
+/*	        	$("#sunny").css("margin-left", "600px");
+*/	        	$("#sunny").animate({ top: "420px" }, 2000);
+	        } else if (num == 4) /*bobross*/ {
 	        	$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "666px");
+	        	$("#sunny").css("margin-left", "570px");
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
-	        } else if (num == 4) {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "770px");
-	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
-	        } else if (num == 5) {
-	        	$("#sunny").css("left", "0px").css("top", "91px");
-	        	$("#sunny").css("margin-left", "90px");
-	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
-	        } else if (num == 6) {
+	        } else if (num == 5) /*bomb*/ {
+	        	$("#sunny").css("left", "35px").css("top", "150px");
+	        	
+	        	$("#sunny").animate({ top: "90%" }, 100).animate({ left: "90%" }, 100).animate({ top: "0%" }, 100).animate({ left: "00%" }, 100);
+	        } else if (num == 6) /*speedracer*/ {
 	        	$("#sunny").css("left", "0px").css("top", "91px");
 	        	$("#sunny").css("margin-left", "900px");
 	        	$("#sunny").animate({ top: "65%" }, 1000).animate({ top: "10%" }, 1000);
