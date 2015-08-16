@@ -57,6 +57,17 @@ Goals of the javascript and ideas on how to do it:
 	d. they will slow down until they settle at the bottom of
 		the screen
 
+		Ideas on How to Do it:
+
+
+5. Reset screen
+
+
+6. Broken website
+
+
+
+
 
 
 
