@@ -78,8 +78,11 @@ section.callouts {
 
 section.callout {
 	float: left;
+	box-sizing: border-box;
 	width: 33.3333%;
+	padding: 20px;
 }
+
 
 
 
