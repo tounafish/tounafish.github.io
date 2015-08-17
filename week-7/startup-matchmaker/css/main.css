@@ -3,9 +3,31 @@ body {
 	font-family: "Source Sans Pro";
 }
 
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: "Merriweather", serif;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+p {
+	font-size: 1.7em;
+}
+
+
+/*Beginning of Header*/
 header#page-header {
 	background-color: black;
-	color: yellow;
 }
 
 header div {
@@ -29,13 +51,25 @@ nav {
 }
 
 nav a {
-	font-family: "Source Sans Pro";
 	font-size: 1.75em;
 	text-decoration: none;
 	color: white;
 	line-height: 3.7em;
 	margin: 0 .5em;
 }
+
+nav a:hover {
+	font-size: 1.75em;
+	text-decoration: none;
+	border-bottom: 2px solid yellow;
+	color: yellow;
+	line-height: 3.7em;
+	margin: 0 .5em;
+}
+/*End of Header*/
+
+
+/*Begining of Tagline*/
 
 .tagline {
 	font-family: "Merriweather", serif;
@@ -52,47 +86,8 @@ p.tagline {
 	color: black;
 	padding: 20px;
 	background-color: #c6c6c6;
-}
-
-#blurbB {
-	background-image: url(../images/coworking.jpg);
-	background-size: 100%;
-	background-position: center;
-	overflow: hidden;
-	display: none;
-}
-
-#blurbC {
-	width: 100%;
-	display: hidden;
-}
-
-.blurbC h2 {
-	font-size: 2.5em;
-}
-
-div.blurbC {
 	display: block;
-	clear: both;
-	background-color: rgb(255, 255, 255);
-	margin: 1.7em;
-	padding: 40px;
-	border-radius: 2px;
-	border: 1px solid black;
 }
-
-div.blurbC p {
-	line-height: 1.7em;
-	margin-top: 5px;
-}
-
-.blurbC a {
-	background-color: yellow;
-}
-
-
-
-
 
 #taste {
 	text-decoration: line-through;
@@ -105,37 +100,35 @@ div.blurbC p {
 	text-decoration: none;
 	border-bottom: 2px solid yellow;
 }
+/*End of Tagline*/
 
 
-h1 {
-	color: yellow;
-	font-family: "Merriweather", serif;
-	font-size: 2.5em;
-}
-
-h2 {
-	font-size: 2em;
-	font-weight: bold;
-}
-
-h3 {
-	font-family: "Merriweather", serif;
-	font-size: 1.8em;	
-}
-
-p {
-	font-size: 1.7em;
-}
+/*Begining of Blurb and Banner with image*/
 
 section.banner {
 	background-image: url(../images/coworking.jpg);
 	background-size: 100%;
 	background-position: center;
 	overflow: hidden;
+	display: block;
 }
 
 .blurb h2 {
 	font-size: 2.5em;
+	color: black;
+}
+
+div.blurb {
+	clear: both;
+	background-color: rgb(255, 255, 255);
+	margin: 1.7em;
+	padding: 40px;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+.blurb a {
+	background-color: yellow;
 }
 
 div.blurb {
@@ -151,16 +144,55 @@ div.blurb {
 
 div.blurb p {
 	line-height: 1.7em;
-	margin-top: 5px;
+	display: block;
 }
 
-.blurb a {
-	background-color: yellow;
+/*Hidden section until 640px*/
+#hiddenbanner {
+	display: none;
 }
+
+#blurbHideImg {
+	width:100%;
+	height: 250px;
+	background-image: url(../images/coworking.jpg);
+	background-size: 100%;
+	background-position: center;
+	overflow: hidden;
+}
+
+#blurbHideBox h2 {
+	font-size: 2em;
+	margin: 10px 20px;
+	text-align: left;
+	display: none;
+}
+
+#blurbHideBox {
+	clear: both;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	/*margin: 1.7em 1em;*/
+	display: none;
+}
+
+#blurbHideBox a {
+	background-color: yellow;
+	margin-bottom: 2em;
+}
+
+div#blurbHideBox p {
+	line-height: 1.8em;
+	margin: 1.7em 1em;
+}
+/*End of Hidden Section*/
+/*End of Banner and Blurb with image*/
 
 section.callouts {
 	clear: both;
 	margin: 3.1em .9em;
+	/*font-family: "Source Sans Pro";*/
+
 }
 
 section.callout {
@@ -169,11 +201,9 @@ section.callout {
 	width: 33.3333%;
 	padding: 20px;
 	border-right: 1px solid #c6c6c6;
-}
-
-.callout {
 	font-family: "Source Sans Pro";
 }
+
 
 .callout p {
 	line-height: 1.3em;
@@ -194,8 +224,8 @@ footer {
 	display: block;
 	width: 100%;
 	height: 50px;
-	font-size: 1.5em;
-	line-height: 3em;
+	font-size: 1.7em;
+	line-height: 2.5em;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
@@ -205,6 +235,7 @@ footer {
 	box-shadow: 0 3px 0 0 gray;
 	margin-bottom: 5px;
 	font-family: "Oswald", sans-serif;
+	font-style: bold;
 	margin-top: 30px;
 }
 
@@ -243,10 +274,14 @@ footer {
 	nav a {
 		line-height: 0;
 		margin: 0 0 0 .5em;
-		padding-bottom: 90px;
 	}
 
-
+	nav a:hover {
+		border-bottom: 2px solid yellow;
+		color: yellow;
+		line-height: 0;
+		margin: 0 0 0 .5em;
+	}
 }	
 
 @media only screen and (max-width: 945px){
@@ -274,14 +309,34 @@ footer {
 }
 
 @media only screen and (max-width: 625px){
-	#blurbB {
-		display: block;
-	}
-	#blurbC {
+	#hiddenbanner {
 		display: block;
 	}
 
+	#blurbHideBox {
+		display: block;
+	}
+
+	#blurbHideImg {
+		display: block;
+	}
+
+	section.banner  {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 525px){
+p.tagline {
+	display: none;
+}
+
+.button {
+	width:290px;
+	font-size: 1.6em;
+}
 
 }
+
 
 
