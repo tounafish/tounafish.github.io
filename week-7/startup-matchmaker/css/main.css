@@ -3,35 +3,6 @@ body {
 	font-family: "Source Sans Pro";
 }
 
-.tagline {
-	font-family: "Merriweather", serif;
-	font-size: 2em;
-	background: #C6C6C6;
-}
-
-p.tagline {
-	text-align: center;
-	font-family: "Merriweather";
-	font-weight: 700;
-	font-style: italic;
-	font-size: 2em;
-	color: black;
-	padding: 20px;
-	background-color: #c6c6c6;
-}
-
-#taste {
-	text-decoration: line-through;
-	color: #999;
-}
-
-#are {
-	text-decoration: underline;
-	/*text-decoration-color: yellow;*/
-	text-decoration: none;
-	border-bottom: 2px solid yellow;
-}
-
 header#page-header {
 	background-color: black;
 	color: yellow;
@@ -39,26 +10,6 @@ header#page-header {
 
 header div {
 	border-bottom: 4px solid yellow;
-}
-
-h1 {
-	color: yellow;
-	font-family: "Merriweather", serif;
-	font-size: 2.5em;
-}
-
-h2 {
-	font-size: 2em;
-	font-weight: bold;
-}
-
-h3 {
-	font-family: "Merriweather", serif;
-	font-size: 1.8em;	
-}
-
-p {
-	font-size: 1.7em;
 }
 
 header h1 {
@@ -86,11 +37,105 @@ nav a {
 	margin: 0 .5em;
 }
 
+.tagline {
+	font-family: "Merriweather", serif;
+	font-size: 2em;
+	background: #C6C6C6;
+}
+
+p.tagline {
+	text-align: center;
+	font-family: "Merriweather";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2em;
+	color: black;
+	padding: 20px;
+	background-color: #c6c6c6;
+}
+
+#blurbB {
+	background-image: url(../images/coworking.jpg);
+	background-size: 100%;
+	background-position: center;
+	overflow: hidden;
+	display: none;
+}
+
+#blurbC {
+	width: 100%;
+	display: hidden;
+}
+
+.blurbC h2 {
+	font-size: 2.5em;
+}
+
+div.blurbC {
+	display: block;
+	clear: both;
+	background-color: rgb(255, 255, 255);
+	margin: 1.7em;
+	padding: 40px;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+div.blurbC p {
+	line-height: 1.7em;
+	margin-top: 5px;
+}
+
+.blurbC a {
+	background-color: yellow;
+}
+
+
+
+
+
+#taste {
+	text-decoration: line-through;
+	color: #999;
+}
+
+#are {
+	text-decoration: underline;
+	/*text-decoration-color: yellow;*/
+	text-decoration: none;
+	border-bottom: 2px solid yellow;
+}
+
+
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: "Merriweather", serif;
+	font-size: 1.8em;	
+}
+
+p {
+	font-size: 1.7em;
+}
+
 section.banner {
 	background-image: url(../images/coworking.jpg);
 	background-size: 100%;
 	background-position: center;
 	overflow: hidden;
+}
+
+.blurb h2 {
+	font-size: 2.5em;
 }
 
 div.blurb {
@@ -104,13 +149,13 @@ div.blurb {
 	border: 1px solid black;
 }
 
-.blurb h2 {
-	font-size: 2.5em;
-}
-
 div.blurb p {
 	line-height: 1.7em;
 	margin-top: 5px;
+}
+
+.blurb a {
+	background-color: yellow;
 }
 
 section.callouts {
@@ -169,14 +214,6 @@ footer {
 	margin-bottom: 0;
 }
 
-.blurb a {
-	background-color: yellow;
-}
-
-	#container {
-		width: 1200px;
-	}
-}
 
 @media only screen and (min-width: 1350px) {
 	#wrapperall {
@@ -186,19 +223,63 @@ footer {
 }
 
 @media only screen and (max-width: 1024px){
-	
+	div.blurb {
+	float: center;
+	width: 40%;
+	padding: 20px;
+	margin: 0;
+	}
+
+	header h1 {
+	margin: 0 0 0 1em;
+	padding-bottom: 0px;
+	}
+
+	nav {
+		float: none;
+		margin: 0 0 1em 1.5em;
+	}
+
+	nav a {
+		line-height: 0;
+		margin: 0 0 0 .5em;
+		padding-bottom: 90px;
+	}
 
 
 }	
 
-@media only screen and (max-width: 685px){
+@media only screen and (max-width: 945px){
+	section.callouts {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
 
+	section.callout {
+	float: none;
+	width: 75%;
+	text-align: center;
+	border-right: 0px;
+	margin: 0 auto;
+	padding: 20px 0px;
+	border-top: 1px solid #333;
+	}
 
+	.button {
+	width: 50%;
+	margin: 0 auto;
+	}
 
 }
 
-@media only screen and (max-width: 500px){
-
+@media only screen and (max-width: 625px){
+	#blurbB {
+		display: block;
+	}
+	#blurbC {
+		display: block;
+	}
 
 
 }
