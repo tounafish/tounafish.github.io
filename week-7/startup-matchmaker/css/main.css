@@ -18,6 +18,10 @@ header#page-header {
 	color: lime;
 }
 
+header div {
+	border-bottom: 4px solid #f3f3f3;
+}
+
 h1, h2, h3 {
 	font-family: "Merriweather";
 }
@@ -81,6 +85,15 @@ section.callout {
 	box-sizing: border-box;
 	width: 33.3333%;
 	padding: 20px;
+}
+
+section h3 {
+	font-size: 2em;
+}
+
+section p {
+	font-size: 1.5em;
+	
 }
 
 
