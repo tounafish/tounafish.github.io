@@ -20,10 +20,14 @@ h3 {
 	font-size: 1.8em;
 }
 
+
 p {
 	font-size: 1.7em;
 }
 
+nav {
+	display: block;
+}
 
 /*Beginning of Header*/
 header#page-header {
@@ -43,6 +47,7 @@ header h1 a {
 	color: yellow;
 	text-decoration: none;
 	line-height: 2.5em;
+	font-size: 1em;
 }
 
 nav {
@@ -245,6 +250,16 @@ footer {
 	margin-bottom: 0;
 }
 
+#menu-toggle {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 2em;
+	color: white;
+	cursor: pointer;
+}
+
 
 @media only screen and (min-width: 1350px) {
 	#wrapperall {
@@ -302,8 +317,10 @@ footer {
 	}
 
 	.button {
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	}
 
 }
@@ -331,10 +348,22 @@ p.tagline {
 	display: none;
 }
 
-.button {
-	width:290px;
-	font-size: 1.6em;
-}
+	.button {
+		width:290px;
+		font-size: 1.6em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#menu-toggle {
+		display: block;
+	}
+
+	header h1 a {
+	font-size: 0.7em;
+	}
 
 }
 
