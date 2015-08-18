@@ -260,6 +260,10 @@ footer {
 	cursor: pointer;
 }
 
+div.wrapper {
+	font-size: 1em;
+}
+
 
 @media only screen and (min-width: 1350px) {
 	#wrapperall {
@@ -363,6 +367,10 @@ p.tagline {
 
 	header h1 a {
 	font-size: 0.7em;
+	}
+
+	div.wrapper {
+		font-size: 0.25em;
 	}
 
 }
