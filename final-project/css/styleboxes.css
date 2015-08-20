@@ -6,12 +6,17 @@ body {
 }
 
 #wrapper {
-	
+	margin: 0 auto;
+	text-align: center;
 }
 
 .boxsize {
 	width: 60px;
 	height: 60px;
+	display: inline-block;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
 }
 
 .11 {
@@ -22,30 +27,44 @@ body {
 	background-color: yellow;
 }
 
-.row3 {
+#row1 {
+	clear: both;
+	background-color: white;
+}
+
+#row2 {
+	clear: both;
+	background-color: aqua;
+}
+
+#row3 {
+	clear: both;
 	background-color: green;
 }
 
-.row4 {
+#row4 {
+	clear: both;
 	background-color: orange;
 }
 
-.row5 {
+#row5 {
+	clear: both;
 	background-color: red;
 }
 
-.row6 {
+#row6 {
+	clear: both;
 	background-color: chocolate;
 }
 
 
 
 
-#topnav {
+/*#topnav {
 	width:100%;
 	float:left;
 	margin: 0px;
-}
+}*/
 
 .center {
 	margin: 0 auto;
@@ -79,6 +98,15 @@ a {
 	border-radius: 10px;
 	margin: 0 15px;
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
 
 /*.blowupbox {
 	clear: both;
