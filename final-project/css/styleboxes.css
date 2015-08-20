@@ -5,15 +5,24 @@ body {
 	font-family: Helvetica;
 }
 
+nav {
+	height: 200px;
+}
+
 #wrapper {
+	clear: both;
 	margin: 0 auto;
 	text-align: center;
 }
 
+#size {
+	height:100px;
+}
+
 .boxsize {
+	float:left;
 	width: 60px;
 	height: 60px;
-	display: inline-block;
 	background-color: #f2f2f2;
 	margin: 0;
 	padding: 0;
@@ -74,9 +83,9 @@ body {
 #logo{
 	width:50%;
 	margin: 20px auto;
-	position: fixed;
+/*	position: fixed;
 	top:0;
-	left:25%;
+	left:25%;*/
 }
 
 .clear {
