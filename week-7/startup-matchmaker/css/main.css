@@ -3,6 +3,39 @@ body {
 	font-family: "Source Sans Pro";
 }
 
+#wrapper {
+	
+}
+
+.boxsize {
+	width: 60px;
+	height: 60px;
+}
+
+.row1 {
+	background-color: blue;
+}
+
+.row2 {
+	background-color: yellow;
+}
+
+.row3 {
+	background-color: green;
+}
+
+.row4 {
+	background-color: orange;
+}
+
+.row5 {
+	background-color: red;
+}
+
+.row6 {
+	background-color: chocolate;
+}
+
 h1 {
 	color: yellow;
 	font-family: "Merriweather", serif;
