@@ -2,78 +2,76 @@
 body {
 	background-color: black;
 	background-image: url(../images/bg_dark_8.png);
-	font-family: Helvetica;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
 }
 
-nav {
-	height: 200px;
-}
-
-#wrapper {
-	clear: both;
+header {
+	width: 50%;
 	margin: 0 auto;
-	text-align: center;
+	height:auto;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 15em;
+	color: #ccc;
+	margin-bottom: 0;
 }
 
 #size {
 	height:100px;
 }
 
-.boxsize {
+#homebox {
+	overflow: hidden;
+}
+
+#homebox .boxsizes {
+	margin: 0 auto;
+}
+
+#homebox .boxsize {
 	float:left;
 	width: 60px;
 	height: 60px;
 	background-color: #f2f2f2;
-	margin: 0;
+	/*margin: 0;*/
 	padding: 0;
 }
 
-.11 {
+#b11 {
 	background-color: blue;
 }
 
-.62 {
+#b62 {
 	background-color: yellow;
 }
 
 #row1 {
-	clear: both;
 	background-color: white;
 }
 
 #row2 {
-	clear: both;
 	background-color: aqua;
 }
 
 #row3 {
-	clear: both;
 	background-color: green;
 }
 
 #row4 {
-	clear: both;
 	background-color: orange;
 }
 
 #row5 {
-	clear: both;
 	background-color: red;
 }
 
 #row6 {
-	clear: both;
 	background-color: chocolate;
 }
-
-
-
-
-/*#topnav {
-	width:100%;
-	float:left;
-	margin: 0px;
-}*/
 
 .center {
 	margin: 0 auto;
@@ -81,8 +79,16 @@ nav {
 }
 
 #logo{
-	width:50%;
-	margin: 20px auto;
+	/*width:100%;*/
+	margin: 20px 0;
+/*	position: fixed;
+	top:0;
+	left:25%;*/
+}
+
+#logo2{
+	/*width:100%;*/
+	margin: 0;
 /*	position: fixed;
 	top:0;
 	left:25%;*/
@@ -100,12 +106,12 @@ nav {
 
 
 a {
-	color: white;
-	padding: 20px 40px;
-	text-transform: uppercase;
-	background-color: #123456;
-	border-radius: 10px;
-	margin: 0 15px;
+	text-decoration: none;
+}
+
+img {
+	width:70%;
+	border-radius: 20px;
 }
 
 .clearfix:after {
@@ -117,19 +123,26 @@ a {
 	height: 0;
 	}
 
-/*.blowupbox {
-	clear: both;
-	width:70%;
-	min-height: 100px;
-	margin-top: 200px;
+
+
+#blowupbox {
+	/*height: 100%;*/
+	/*min-height: 100px;*/
+	/*margin-top: 200px;*/
 	 background: url("") center no-repeat;
 	 background-image: url("");
 	 background-size: cover;
-	 height: 100%;
-}*/
+	 
+}
 
 
+#warning {
+	width:46px;
+	background-color: yellow;
+}
 
-
+#warsvg {
+	width:100%;
+}
 
 

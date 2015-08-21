@@ -67,16 +67,6 @@ Goals of the javascript and ideas on how to do it:
 
 
 
-
-
-
-
-
-
-
-
-
-
 */
 
 
