@@ -161,4 +161,25 @@ img {
 	width:100%;
 }
 
+.p70 {
+	float: left;
+	width: 70%;
+	height: 200px;
+	background-color: red;
+}
+
+.p30 {
+	float: left;
+	width: 30%;
+	height: 100px;
+	background-color: blue;
+}
+
+.p50 {
+	float: left;
+	width: 50%;
+	height: 200px;
+	background-color: gray;
+}
+
 
