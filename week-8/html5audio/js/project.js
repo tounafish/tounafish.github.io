@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 	//Pacman animations will go here
 	$("#ghost").click(function(){
-		$("ghoste").animate({ left: "100%" }, 1000, "easeOutBounce");
+		$("ghost").animate({ left: "100%" }, 1000, "easeOutBounce");
 	});
 
 });
