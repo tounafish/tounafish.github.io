@@ -28,6 +28,14 @@ h2 {
 	margin-bottom: 50px;
 }
 
+h3 {
+	display: block;
+	font-size: 2em;
+	font-weight: 200;
+	color: #ccc;
+	margin-bottom: 50px;
+}
+
 #size {
 	height:100px;
 }
@@ -49,13 +57,6 @@ h2 {
 	padding: 0;
 }
 
-#b11 {
-	background-color: blue;
-}
-
-#b62 {
-	background-color: yellow;
-}
 
 #row1 {
 	background-color: white;
@@ -79,6 +80,14 @@ h2 {
 
 #row6 {
 	background-color: chocolate;
+}
+
+#b11 {
+	background-color: blue;
+}
+
+#b62 {
+	background-color: yellow;
 }
 
 .center {
@@ -127,11 +136,12 @@ a {
 	text-decoration: none;
 }
 
-/*img {
-	width:50%;
+img {
+	width: auto;
+/*	width:50%;
 	border-radius: 20px;
-	margin-top: 50px;
-}*/
+	margin-top: 50px;*/
+}
 
 .clearfix:after {
 	visibility: hidden;
@@ -161,25 +171,43 @@ a {
 	width:100%;
 }
 
+.box-footer {
+	box-sizing: border-box;
+}
+
 .p70 {
 	float: left;
 	width: 70%;
-	height: 200px;
-	background-color: red;
+	height: 500px;
+	background-color: black;
+/*	margin: 20px;
+*/}
+
+.p70 img {
+	width:110%;
 }
 
 .p30 {
 	float: left;
 	width: 30%;
-	height: 100px;
-	background-color: blue;
+	height: 250px;
+	background-color: black;
+}
+
+.p30 img {
+	width:110%;
 }
 
 .p50 {
 	float: left;
 	width: 50%;
-	height: 200px;
-	background-color: gray;
+	height: 500px;
+	background-color: black;
+/*	margin: 20px;
+*/}
+
+.p50 img {
+	width:110%;
 }
 
 
