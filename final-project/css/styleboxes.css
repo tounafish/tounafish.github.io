@@ -127,11 +127,11 @@ a {
 	text-decoration: none;
 }
 
-img {
+/*img {
 	width:50%;
 	border-radius: 20px;
 	margin-top: 50px;
-}
+}*/
 
 .clearfix:after {
 	visibility: hidden;
