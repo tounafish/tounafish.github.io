@@ -128,9 +128,67 @@ $("selector").animate(property, parameters);
 
 
 
-NOTES from class
+NOTES from class Week 8
+StartUp Review
+width:auto
+
+css
+#page-header nav{
+	display: none;
+	padding-top:0;
+	padding-bottom: 1 em;
+	width: auto;
+	float: none;
+	text align: center;
+	clear: both;
+}
+
+#page-header nav a {
+	display:block;
+	border-bottom: 1px solid #ccc;
+}
+
+$(document).ready(function(){
+	$("#mobile").click(function(){
+		$("#page-header nav").toggle();
+		or
+		$("#page-header nav").slideToggle(1000);
+		or
+		$("#page-header nav").fadeToggle(1000);
+	});
+});
+
+$(window).resize(function(){
+	if($(window).width() > 768) {
+		$("#page-header nav").show();
+	}
+	else {
+		$("page-header nav").hide();
+	}
+
+	or
+
+	if($(window).width() > 768) {
+		$("page-header nav").attr("style", "");
+	}
+
+});
 
 
+overflow-x: hidden
+
+if($("body").css("right") == "100px") {
+	}
+	else
+
+	www.lorempixel.com
+	parralax
+
+POSITIONS
+position: static; default, stacks
+position: fixed; stays in place in window (top, bottom, left, right)
+position: relative; can use Z index, moves object around the same position (top, bottom, left, right)
+position: absolute; 
 
 
 
