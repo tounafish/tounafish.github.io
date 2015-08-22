@@ -15,7 +15,7 @@ header {
 h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
-	font-size: 15em;
+	font-size: 12em;
 	color: #ccc;
 	margin-bottom: 0;
 }
@@ -55,31 +55,6 @@ h3 {
 	background-color: #f2f2f2;
 	/*margin: 0;*/
 	padding: 0;
-}
-
-
-#row1 {
-	background-color: white;
-}
-
-#row2 {
-	background-color: aqua;
-}
-
-#row3 {
-	background-color: green;
-}
-
-#row4 {
-	background-color: orange;
-}
-
-#row5 {
-	background-color: red;
-}
-
-#row6 {
-	background-color: chocolate;
 }
 
 #b11 {
@@ -130,6 +105,7 @@ h3 {
 	display: block;
 	width:10%;
 	margin: 0;
+	position:relative;
 }
 
 a {
@@ -158,9 +134,16 @@ img {
 	/*margin-top: 200px;*/
 	 background: url("") center no-repeat;
 	 background-image: url("");
-	 background-size: cover;
-	 
+	 background-size: cover; 
 }
+
+#starwars {
+	width: auto;
+	width:50%;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+
 
 #warning {
 	width:46px;
@@ -208,6 +191,23 @@ img {
 
 .p50 img {
 	width:110%;
+}
+
+.input-wrapper input {
+	border: none;
+	background-color: transparent;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.input-wrapper {
+	border-bottom: 5px solid #fff;
+	width: 200px;
+	display: inline-block;
+}
+
+#size480 {
+	width: 480px;
 }
 
 
