@@ -20,6 +20,14 @@ h1 {
 	margin-bottom: 0;
 }
 
+h2 {
+	display: block;
+	font-size: 5em;
+	font-weight: 200;
+	color: #ccc;
+	margin-bottom: 50px;
+}
+
 #size {
 	height:100px;
 }
@@ -78,6 +86,10 @@ h1 {
 	text-align: center;
 }
 
+.hidden {
+	display: none;
+}
+
 #logo{
 	/*width:100%;*/
 	margin: 20px 0;
@@ -116,8 +128,9 @@ a {
 }
 
 img {
-	width:70%;
+	width:50%;
 	border-radius: 20px;
+	margin-top: 50px;
 }
 
 .clearfix:after {
@@ -129,8 +142,6 @@ img {
 	height: 0;
 	}
 
-
-
 #blowupbox {
 	/*height: 100%;*/
 	/*min-height: 100px;*/
@@ -140,7 +151,6 @@ img {
 	 background-size: cover;
 	 
 }
-
 
 #warning {
 	width:46px;

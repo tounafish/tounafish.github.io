@@ -74,6 +74,8 @@ $( document ).ready(function() {
 	$("#clickme").click(function(){
 	/*  $("#changeme").attr("src", $("#getme").val());
 	*/
-	  $("html").css("background-image", "url("+$("#getme").val()+")");
+	  $("#blowupbox").css("background-image", "url("+$("#getme").val()+")");
 	});
+
+	
 		});
