@@ -1,0 +1,48 @@
+body {
+	background-color: #222222;
+}
+
+img {
+	position: absolute;
+}
+
+body, html, #wrapper {
+	overflow: hidden;
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -50px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 100px;
+	color: white;
+	font-family: Courier, monospace;
+	z-index: -1;
+}
+
+#audioplayer {
+	position: absolute; 
+	top: 0;
+	right: 0;
+}
+
+
+#volume {
+	width: 30px;
+	height: 26px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image: url("../img/volumeon.png");
+}
+
+#volume.off {
+	background-image: url("../img/volume.png");
+}
+
+
+

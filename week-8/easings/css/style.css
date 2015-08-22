@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #222222;
+	font-family: Arial, sans-serif;
+	height: 100%;
+}
+
+#wrapper {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.box {
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	top: 0;
+}
+
+#box1 {
+	background-color: #FF5F0D;
+	left: 0;
+}
+#box2 {
+	background-color: #E81F0C;	
+	left: 20%;
+}
+#box3 {
+	background-color: #FF008D;	
+	left: 40%;
+}
+#box4 {
+	background-color: #B60CE8;	
+	left: 60%;
+}
+#box5 {
+	background-color: #4E00FF;	
+	left: 80%;
+}
