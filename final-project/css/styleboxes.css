@@ -104,6 +104,12 @@ h1 {
 	display: block;
 }
 
+.floate {
+	float:left;
+	display: block;
+	width:10%;
+	margin: 0;
+}
 
 a {
 	text-decoration: none;
