@@ -7,8 +7,22 @@ $(document).ready(function(){
 	});
 
 	//Audio will go here
+	$("volume").click(function(){
+		$(this).toggleClass("fa-volume-off");
+		$(this).toggleClass("fa-volume-up");
+
+		if($(this).hasClass("fa-volume-up")) {
+			$("audio")[0].play();
+		}
+		else {
+			$("audio")[0].pause();
+		}
+	});
 
 	//Pacman animations will go here
+	$("#ghost").click(function(){
+		$("ghoste").animate({ left: "100%" }, 1000, "easeOutBounce");
+	});
 
 });
 

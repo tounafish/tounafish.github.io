@@ -193,6 +193,9 @@ position: absolute;
 
 
 VIDEO TAG
+http://www.wistia.com
+http://www.videojs.com
+http://flowplayer.org
 
 
 

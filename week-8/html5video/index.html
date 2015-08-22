@@ -8,11 +8,26 @@
 	<body>
 		<div id="wrapper">
 			<h1>Learning to Play the Accordion!</h1>
-			<video poster="images/accordion.png" loop autoplay controls>
+			<video poster="images/accordion.png">
 				<source src="media/accordion.mp4" type="video/mp4">
+				<source src="media/accordion.ogv" type="video/ogg">
+				<source src="media/accordion.webm" type="video/webm">
 				<p>Your Stupid Browser Doesn't Support the Video Tag.</p>
 			</video>
+			<a href="#" id="play"><img src="images/play.png"></a>
+			<a href="#" id="pause"><img src="images/pause.png"></a>
  		</div>
+
+ 		<iframe width="100%" height="400px" src="http://www.mtouna.com">
+
+ 		<script type="text/javascript">
+ 		document.getElementById("play").onclick = function(){
+ 			document.getElementsByTagName("video")[0].play();
+ 		};
+ 		document.getElementById("pause").onclick = function(){
+ 			document.getElementsByTagName("video")[0].pause();
+ 		};
+ 		</script>
 	</body>
 </html>
 

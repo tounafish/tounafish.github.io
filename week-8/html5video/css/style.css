@@ -6,4 +6,19 @@ body {
 	width: 540px; 
 	margin: 0 auto; 
 	text-align: center;
+	position: relative;
+}
+
+#wrapper a {
+	position: absolute;
+}
+
+#play {
+	bottom: 0;
+	left: 0;
+}
+
+#pause {
+	bottom: 0;
+	left: 40px;
 }
