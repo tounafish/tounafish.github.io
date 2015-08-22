@@ -128,6 +128,8 @@ $("selector").animate(property, parameters);
 
 
 
+NOTES from class
+
 
 
 
