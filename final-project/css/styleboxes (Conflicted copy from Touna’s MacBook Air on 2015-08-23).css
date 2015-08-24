@@ -1,0 +1,232 @@
+body {
+	background-color: black;
+	background-image: url(../images/bg_dark_8.png);
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
+
+header {
+	width: 50%;
+	margin: 0 auto;
+	height:auto;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 12em;
+	color: #ccc;
+	margin-bottom: 0;
+}
+
+h2 {
+	display: block;
+	font-size: 4em;
+	font-weight: 200;
+	color: #ccc;
+	margin-bottom: 50px;
+}
+
+h3 {
+	display: block;
+	font-size: 2em;
+	font-weight: 200;
+	color: #ccc;
+	margin-bottom: 50px;
+}
+
+button {
+	width:150px;
+	height: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: .35em;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #e74c3c;
+	border: 4px solid #c0392b;
+	border-radius: 40px;
+}
+
+#size {
+	height:100px;
+}
+
+#homebox {
+	overflow: hidden;
+}
+
+#homebox .boxsizes {
+	margin: 0 auto;
+}
+
+#homebox .boxsize {
+	float:left;
+	width: 75px;
+	height: 75px;
+	background-color: #f2f2f2;
+	/*margin: 0;*/
+	padding: 0;
+}
+
+#b11 {
+	background-color: blue;
+}
+
+#b62 {
+	background-color: yellow;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+#logo{
+	/*width:100%;*/
+	margin: 20px 0;
+/*	position: fixed;
+	top:0;
+	left:25%;*/
+}
+
+#logo2{
+	/*width:100%;*/
+	margin: 0;
+/*	position: fixed;
+	top:0;
+	left:25%;*/
+}
+
+.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+.float {
+	float:center;
+	display: block;
+}
+
+.floate {
+	float:left;
+	display: block;
+	width:10%;
+	margin: 0;
+	position:relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: auto;
+/*	width:50%;
+	border-radius: 20px;
+	margin-top: 50px;*/
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+#blowupbox {
+	/*height: 100%;*/
+	/*min-height: 100px;*/
+	/*margin-top: 200px;*/
+	 background: url("") center no-repeat;
+	 background-image: url("");
+	 background-size: cover; 
+}
+
+#starwars {
+	width: auto;
+	width:50%;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+
+
+#warning {
+	width:46px;
+	background-color: yellow;
+}
+
+#warsvg {
+	width:100%;
+}
+
+.box-footer {
+	box-sizing: border-box;
+}
+
+.p70 {
+	float: left;
+	width: 67%;
+	padding: 1.5%;
+	height: 500px;
+	background-color: rgba(0,0,0,.7);
+}
+
+.p70 img {
+	width:110%;
+}
+
+.p30 {
+	float: left;
+	width: 27%;
+	padding: 1.5%;
+	height: 250px;
+	background-color: rgba(0,0,0,.7);
+}
+
+.p30 img {
+	width:110%;
+}
+
+.p50 {
+	float: left;
+	width: 47%;
+	padding: 1.5%;
+	height: 500px;
+	background-color: rgba(0,0,0,.7);
+}
+
+.p50 img {
+	width:110%;
+}
+
+.input-wrapper input {
+	border: none;
+	background-color: transparent;
+	font-size: .5em;
+	line-height: 1em;
+	font-family: Courier;
+	color: #ccc;
+	width:90%;
+}
+
+.input-wrapper {
+	border-bottom: 2px solid #fff;
+	width: 50%;
+	display: inline-block;
+	color: #ccc;
+	margin-top: 30px;
+}
+
+#size480 {
+	width: 600px;
+}
+
+
