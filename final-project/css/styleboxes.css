@@ -225,6 +225,26 @@ img {
 	margin-top: 80px;
 }
 
+.dyno-wrapper input {
+	border: none;
+	background-color: transparent;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-family: Courier;
+	color: #ccc;
+	width:100%;
+	text-align: center;
+}
+
+.dyno-wrapper {
+	border: 2px solid #fff;
+	width: 25%;
+	display: inline-block;
+	color: #ccc;
+	margin-top: 80px;
+	padding-bottom: 15px;
+}
+
 #size480 {
 	width: 600px;
 }
