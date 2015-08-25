@@ -65,17 +65,33 @@ Goals of the javascript and ideas on how to do it:
 
 6. Broken website
 
+*/
 
+
+$(document).ready(function() {$("#clickme").click(function(){$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");});});
+	
+/*	$("#clickme").click(function(){
+	  $("#blowupbox img").css("src", "("+$("#getme").val()+")");
+	});
+});*/
+
+
+
+
+
+/*	for p70 and p50 and p30 when clicked {}
+		"img" of "#starwars" change css "src" to (this) clicked;
+
+	for "#getme" when clicked {}
+		""
 
 */
 
 
-$( document ).ready(function() {
-	$("#clickme").click(function(){
-	/*  $("#changeme").attr("src", $("#getme").val());
-	*/
-	  $("#blowupbox").css("background-image", "url("+$("#getme").val()+")");
-	});
 
-	
-		});
+
+
+
+
+
+

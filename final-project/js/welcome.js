@@ -5,4 +5,9 @@ $(document).ready(function () {
 		    "left": "100%"
 		  }, 200);
     }).removeClass("hidden");
+
+    $("div h1").fadeOut(6000);
+   	/*$(".crazyidea").removeClass();*/
+
+   
 });
