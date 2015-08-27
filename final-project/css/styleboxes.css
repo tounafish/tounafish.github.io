@@ -57,7 +57,7 @@ button {
 	overflow: hidden;
 }
 
-#homebox .boxsizes {
+#hosmebox .boxsizes {
 	margin: 0 auto;
 }
 
@@ -253,4 +253,85 @@ img {
 	display:none;
 }
 
+.fa {
+	display: inline;
+}
+
+
+
+@media only screen and (max-width: 1160px){
+	.p70 {
+		float: left;
+		width: 48%;
+		padding: 1%;
+		height: auto;
+		background-color: rgba(0,0,0,1);
+	}
+
+	.p30 {
+		float: left;
+		width: 48%;
+		padding: 1%;
+		height: auto;
+		background-color: rgba(0,0,0,1);
+	}
+
+	.p50 {
+	float: left;
+	width: 48%;
+	padding: 1%;
+	height: auto;
+	background-color: rgba(0,0,0,1);
+	}
+
+}
+
+@media only screen and (max-width: 970px){
+	h2 {
+		font-size: 3em;
+	}
+
+
+@media only screen and (min-width: 769px){
+	.input-wrapper {
+		width: 40%;
+		margin-top: 60px;
+	}
+
+	.fa {
+		display: hidden;
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	.p70 {
+		float: left;
+		width: 98%;
+		padding: 1%;
+		height: auto;
+		background-color: rgba(0,0,0,1);
+	}
+
+	.p30 {
+		float: left;
+		width: 98%;
+		padding: 1%;
+		height: auto;
+		background-color: rgba(0,0,0,1);
+	}
+
+	.p50 {
+	float: left;
+	width: 98%;
+	padding: 1%;
+	height: auto;
+	background-color: rgba(0,0,0,1);
+	}
+
+
+}
+
+/*@media only screen and (max-width: 768px){
+*/
 

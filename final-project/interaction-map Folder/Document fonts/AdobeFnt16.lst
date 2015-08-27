@@ -1,0 +1,88 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Impact
+FamilyName:Impact
+StyleName:Regular
+MenuName:Impact
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Impact
+WritingScript:Roman
+OutlineFileName:\Impact.ttf
+DataFormat:sfntData
+FileLength:138488
+FileModTime:1410288813
+NameArray:0,Mac,4,Impact
+NameArray:0,Win,1,Impact
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Bold
+FamilyName:Open Sans
+StyleName:Bold
+MenuName:Open Sans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Bold
+WritingScript:Roman
+OutlineFileName:\OpenSans-Bold.ttf
+DataFormat:sfntData
+FileLength:224592
+FileModTime:1433592088
+NameArray:0,Mac,4,Open Sans Bold
+NameArray:0,Win,1,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans-Light
+FamilyName:Open Sans
+StyleName:Light
+MenuName:Open Sans Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Open Sans Light
+WritingScript:Roman
+OutlineFileName:\OpenSans-Light.ttf
+DataFormat:sfntData
+FileLength:222412
+FileModTime:1433592088
+NameArray:0,Mac,4,Open Sans Light
+NameArray:0,Win,1,Open Sans Light
+NameArray:0,Win,16,Open Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:OpenSans
+FamilyName:Open Sans
+StyleName:Regular
+MenuName:Open Sans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Open Sans
+WritingScript:Roman
+OutlineFileName:\OpenSans-Regular.ttf
+DataFormat:sfntData
+FileLength:217360
+FileModTime:1433592088
+NameArray:0,Mac,4,Open Sans
+NameArray:0,Win,1,Open Sans
+%EndFont
+
