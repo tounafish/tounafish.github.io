@@ -68,7 +68,6 @@ Goals of the javascript and ideas on how to do it:
 */
 
 
-$(document).ready(function() {$("#clickme").click(function(){$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");});});
 	
 /*	$("#clickme").click(function(){
 	  $("#blowupbox img").css("src", "("+$("#getme").val()+")");
