@@ -6,7 +6,6 @@ body {
 }
 
 header {
-	/*width: 50%;*/
 	margin: 0 auto;
 	height:auto;
 }
@@ -24,8 +23,7 @@ h2 {
 	font-size: 4em;
 	font-weight: 200;
 	color: #ccc;
-/*	margin-bottom: 50px;
-*/}
+}
 
 h3 {
 	display: block;
@@ -33,6 +31,22 @@ h3 {
 	font-weight: 200;
 	color: #ccc;
 	margin-bottom: 50px;
+}
+
+h4 {
+	margin: 0 auto;
+	margin-top: 1em;
+	width:40%;
+	height: 2em;
+	line-height: 2em;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(255,255,255,.3);
+	border: 4px solid #c0392b;
+	border-radius: 15px;
 }
 
 button {
@@ -49,23 +63,6 @@ button {
 	border-radius: 40px;
 }
 
-h4 {
-	margin: 0 auto;
-	margin-top: 1em;
-	width:40%;
-	height: 2em;
-	line-height: 2em;
-	font-size: 4em;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
-	
-	color: white;
-	text-decoration: none;
-	background-color: rgba(255,255,255,.3);
-	border: 4px solid #c0392b;
-	border-radius: 15px;
-}
-
 a {
 	text-decoration: none;
 	color: #ccc;
@@ -73,67 +70,40 @@ a {
 
 a:hover {
 	background-image: url(../images/detonHOV.svg);
+	background-repeat: none;
 }
 
 a:active {
 	background-image: url(../images/detonACT.svg);
+	background-repeat: none;
 }
 
-
-#size {
-	height:100px;
+img {
+	width: auto;
 }
 
-#homebox {
-	overflow: hidden;
-}
-.test{
-}
-.a{
+.a {
 	transform: translate(-1000px,-1000px);
 	transition:1s; 
 }
 
-.b{
+.b {
 	transform: translate(1000px,1000px);
 	transition:1.2s; 
 }
 
-.c{
+.c {
 	transform: translate(-1000px,1000px);
 	transition:1.4s; 
 }
 
-.d{
+.d {
 	transform: translate(1000px,-1000px);
 	transition:1.6s;
 }
 
-#hosmebox .boxsizes {
-	margin: 0 auto;
-}
-.lettersize {
-	height: 150px
-}
-.lettersize img{
-	height: 100%
-}
-
-#homebox .boxsize {
-	float:left;
-	width: 75px;
-	height: 75px;
-	background-color: #f2f2f2;
-	/*margin: 0;*/
-	padding: 0;
-}
-
-#b11 {
-	background-color: blue;
-}
-
-#b62 {
-	background-color: yellow;
+.box-footer {
+	box-sizing: border-box;
 }
 
 .center {
@@ -141,63 +111,9 @@ a:active {
 	text-align: center;
 }
 
-.hidden {
-	display: none;
-}
-
-#logo{
-	/*width:100%;*/
-	margin: 20px auto;
-	width: 50%;
-/*	position: fixed;
-	top:0;
-	left:25%;*/
-}
-
-#deton {
-	/*width:100%;*/
-	margin: 50px auto;
-	width: 30%;
-/*	position: fixed;
-	top:0;
-	left:25%;*/
-}
-
-#logo2{
-	/*width:100%;*/
-	margin: 0;
-/*	position: fixed;
-	top:0;
-	left:25%;*/
-}
-
 .clear {
 	clear: both;
 	overflow: hidden;
-}
-
-.float {
-	float:center;
-	display: block;
-}
-
-.floate {
-	float:left;
-	display: block;
-	width:10%;
-	margin: 0;
-	position:relative;
-}
-
-a {
-	text-decoration: none;
-}
-
-img {
-	width: auto;
-/*	width:50%;
-	border-radius: 20px;
-	margin-top: 50px;*/
 }
 
 .clearfix:after {
@@ -207,72 +123,39 @@ img {
 	content: " ";
 	clear: both;
 	height: 0;
-	}
-
-#blowupbox {
-	/*height: 100%;*/
-	/*min-height: 100px;*/
-	/*margin-top: 200px;*/
-	 background: url("") center no-repeat;
-	 background-image: url("");
-	 background-size: cover; 
 }
 
-#starwars {
-	width: auto;
-	width:50%;
-	border-radius: 20px;
-	margin-top: 50px;
+.dyno-wrapper {
+	border: 2px solid #fff;
+	width: 25%;
+	display: inline-block;
+	color: #ccc;
+	margin-top: 80px;
+	padding-bottom: 15px;
 }
 
-
-#warning {
-	width:46px;
-	background-color: yellow;
-}
-
-#warsvg {
+.dyno-wrapper input {
+	border: none;
+	background-color: transparent;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-family: Courier;
+	color: #ccc;
 	width:100%;
+	text-align: center;
 }
 
-.box-footer {
-	box-sizing: border-box;
+.fa {
+	display: inline;
 }
 
-.p70 {
-	float: left;
-	width: 68%;
-	padding: 1%;
-	height: 500px;
-	background-color: rgba(0,0,0,1);
+.float {
+	float: center;
+	display: block;
 }
 
-.p70 img {
-	width:110%;
-}
-
-.p30 {
-	float: left;
-	width: 28%;
-	padding: 1%;
-	height: 250px;
-	background-color: rgba(0,0,0,1);
-}
-
-.p30 img {
-	width:110%;
-}
-
-.p50 {
-	float: left;
-	width: 48%;
-	padding: 1%;
-	height: 500px;
-	background-color: rgba(0,0,0,1);
-}
-
-.p50 img {
-	width:110%;
+.hidden {
+	display: none;
 }
 
 .input-wrapper input {
@@ -293,37 +176,115 @@ img {
 	margin-top: 80px;
 }
 
-.dyno-wrapper input {
-	border: none;
-	background-color: transparent;
-	font-size: 2.5em;
-	line-height: 1.5em;
-	font-family: Courier;
-	color: #ccc;
-	width:100%;
-	text-align: center;
+.lettersize {
+	height: 150px
 }
 
-.dyno-wrapper {
-	border: 2px solid #fff;
-	width: 25%;
-	display: inline-block;
-	color: #ccc;
-	margin-top: 80px;
-	padding-bottom: 15px;
+.lettersize img{
+	height: 100%
+}
+
+.p70 {
+	float: left;
+	width: 68%;
+	padding: 1%;
+	height: 500px;
+	background-color: rgb(0,0,0);
+}
+
+.p70 img {
+	width:110%;
+}
+
+.p30 {
+	float: left;
+	width: 28%;
+	padding: 1%;
+	height: 250px;
+	background-color: rgb(0,0,0);
+}
+
+.p30 img {
+	width:110%;
+}
+
+.p50 {
+	float: left;
+	width: 48%;
+	padding: 1%;
+	height: 500px;
+	background-color: rgb(0,0,0);
+}
+
+.p50 img {
+	width:110%;
+}
+
+#blowupbox {
+	 background: url("") center no-repeat;
+	 background-image: url("");
+	 background-size: cover; 
+}
+
+#deton {
+	margin: 50px auto;
+	width: 30%;
+}
+
+#homebox {
+	overflow: hidden;
+}
+
+#homebox .boxsize {
+	margin: 0 auto;
+	float:left;
+	width: 75px;
+	height: 75px;
+	background-color: #f2f2f2;
+	padding: 0;
+}
+
+#logo{
+	margin: 20px auto;
+	width: 50%;
+}
+
+#starwars {
+	width: auto;
+	width:50%;
+	border-radius: 20px;
+	margin-top: 50px;
 }
 
 #size480 {
 	width: 600px;
 }
 
-#crazyidea {
-	display:none;
-}
+/*.floate {
+	float: left;
+	display: block;
+	width: 10%;
+	margin: 0;
+	position: relative;
+}*/
 
-.fa {
-	display: inline;
-}
+/*#logo2{
+	margin: 0;
+}*/
+
+/*#size {
+	height:100px;
+}*/
+
+/*#warning {
+	width:46px;
+	background-color: yellow;
+}*/
+
+/*#warsvg {
+	width:100%;
+}*/
+
 
 
 
