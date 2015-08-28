@@ -87,9 +87,36 @@ a:active {
 #homebox {
 	overflow: hidden;
 }
+.test{
+}
+.a{
+	transform: translate(-1000px,-1000px);
+	transition:1s; 
+}
+
+.b{
+	transform: translate(1000px,1000px);
+	transition:1.2s; 
+}
+
+.c{
+	transform: translate(-1000px,1000px);
+	transition:1.4s; 
+}
+
+.d{
+	transform: translate(1000px,-1000px);
+	transition:1.6s;
+}
 
 #hosmebox .boxsizes {
 	margin: 0 auto;
+}
+.lettersize {
+	height: 150px
+}
+.lettersize img{
+	height: 100%
 }
 
 #homebox .boxsize {
