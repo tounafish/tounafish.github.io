@@ -71,6 +71,15 @@ a {
 	color: #ccc;
 }
 
+a:hover {
+	background-image: url(../images/detonHOV.svg);
+}
+
+a:active {
+	background-image: url(../images/detonACT.svg);
+}
+
+
 #size {
 	height:100px;
 }
