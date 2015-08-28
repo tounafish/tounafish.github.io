@@ -68,15 +68,22 @@ a {
 	color: #ccc;
 }
 
-a:hover {
-	background-image: url(../images/detonHOV.svg);
-	background-repeat: none;
+#deton {
+ margin-bottom: 10px;
+ width: 260px;
+ height: 260px;
+ display: block;
+ background: transparent url("../images/detonACT.svg") center top no-repeat;
 }
 
-a:active {
-	background-image: url(../images/detonACT.svg);
-	background-repeat: none;
+#deton:hover {
+   background-image: url("../images/detonHOV.svg");
 }
+
+#deton:active {
+   background-image: url("../images/detonACT.svg");
+}
+
 
 img {
 	width: auto;
