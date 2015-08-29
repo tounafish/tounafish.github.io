@@ -1,27 +1,28 @@
 $(document).ready(function() {
+
 	$("#clickme").click(function(){
-	/*$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");*/
-	$("#starwars").css("background-image", "url("+$("#getme").val()+")");
+
+		// var imgSrc = 
+
+		$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");
+	// 	/*$("#starwars").css("background-image", "url("+$("#getme").val()+")");*/
+	// 	// });
 	});
-});
 
-
-$(".p70 img").click(function(){
-	var geturl = $(this).val();
-	$("img#starwars").src(geturl);
+	$(".image70 img").click(function(){	
+		var getUrl = $(this).attr("src");
+		$("#starwars").attr("src", getUrl);
 	});
-});
 
-$(".p50 img").click(function(){
-	var geturl = $(this).val();
-	$("img#starwars").src(geturl);
+	$(".image50 img").click(function(){
+		var getUrl = $(this).attr("src");
+		$("#starwars").attr("src", getUrl);
 	});
-});
 
-$(".p30 img").click(function(){
-	var geturl = $(this).val();
-	$("img#starwars").src(geturl);
+	$(".image30 img").click(function(){
+		var getUrl = $(this).attr("src");
+		$("#starwars").attr("src", getUrl);
 	});
+
+
 });
-
-

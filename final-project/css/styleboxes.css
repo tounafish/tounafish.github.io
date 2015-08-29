@@ -164,7 +164,6 @@ h4 {
 	padding: 1%;
 	height: 529px;
 	background-color: black;
-	transition: opacity 1s;
 	overflow: hidden;
 
 }
@@ -175,9 +174,11 @@ h4 {
 	outline-color: black;
 	outline-style: solid;
     outline-width: 15px;
+    transition: opacity 1s;
+    background-color: black;
 }
 
-.image70:hover {
+.image70 img:hover {
 	opacity: .6;
 }
 
