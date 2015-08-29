@@ -7,12 +7,12 @@ $(document).ready(function() {
 		"a3":"d"
 	}
 	
-setTimeout(function(){
-	var div = document.getElementsByTagName('div');
-	for(i=0;i<div.length;i++){
-		var index = "a"+Math.floor(Math.random()*4);
-		div[i].className=qwer[index];
-	}
+	setTimeout(function(){
+		var img = document.getElementsByTagName('img');
+		for(i=0;i<img.length;i++){
+			var index = "a"+Math.floor(Math.random()*4);
+			img[i].className=qwer[index];
+		}
 },1000)
    	
 

@@ -108,6 +108,8 @@ a:visited {
 
 img {
 	width: auto;
+	background-repeat:no-repeat;
+    background-position: 50% 50%;
 }
 
 .a {
@@ -137,6 +139,14 @@ img {
 .center {
 	margin: 0 auto;
 	text-align: center;
+	background-repeat:no-repeat;
+    background-position: 50% 50%;
+}
+
+.center-content {
+	display: block;
+	background-repeat:no-repeat;
+    background-position: 50% 50%;
 }
 
 .clear {
@@ -222,7 +232,26 @@ img {
 
 .p70 img {
 	width:110%;
+	border-radius: 50px;
 }
+
+.p70:hover {
+	opacity: .99;
+	background-origin: 
+	
+}
+
+.p50:hover {
+	opacity: .99;
+	
+	
+}
+
+.p30:hover {
+	opacity: .99;
+	 
+}
+
 
 .p30 {
 	float: left;
@@ -234,6 +263,8 @@ img {
 
 .p30 img {
 	width:110%;
+	border-radius: 50px;
+
 }
 
 .p50 {
@@ -246,6 +277,7 @@ img {
 
 .p50 img {
 	width:110%;
+	border-radius: 50px;
 }
 
 #blowupbox {
@@ -286,6 +318,10 @@ img {
 
 #size480 {
 	width: 600px;
+}
+
+#submitme {
+	vertical-align: middle;
 }
 
 /*.floate {
