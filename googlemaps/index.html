@@ -11,12 +11,39 @@
     <script type="text/javascript">
 
       var map;
+      var domObject = document.getElementById('map');
+      var centerObject = {lat: 40.7127, lng: -74.0059};
+      var zoomValue = 12;
+      var styleArray = [ { featureType: "all", stylers: [ { saturation: -80 } ] },{ featureType: "road.arterial", elementType: "geometry", stylers: [ { hue: "#00ffee" }, { saturation: 50 } ] 
+      },{ 
+          featureType: "poi.business", 
+          elementType: "labels", 
+          stylers: [ 
+            { visibility: "off" } 
+          ] 
+        } 
+      ];
+
       function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+        map = new google.maps.Map(domObject, {
+          center: centerObject,
+          zoom: zoomValue,
+          styles: styleArray
         });
+
+        var otherHalfBrewery = new google.maps.Marker({
+          position: {lat: 40.673916, lng: -73.997060},
+          map: map,
+          title: 'Other Half Brewery'
+        });
+
+        var transmitterBrewery = new google.maps.Marker({
+          position: {lat: 40.740215, lng: -73.952003},  
+          map: map,
+          title: 'Transmitter Brewing',
+        })
       }
+
 
     </script>
     <script async defer
