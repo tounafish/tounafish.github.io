@@ -114,12 +114,13 @@ img {
 
 .a {
 	transform: translate(-1000px,-1000px);
-	transition:1s; 
+	transition:1s;
+    transition-duration: 5s;
 }
 
 .b {
 	transform: translate(1000px,1000px);
-	transition:1.2s; 
+	transition:1.2s;
 }
 
 .c {
@@ -226,30 +227,33 @@ img {
 	float: left;
 	width: 68%;
 	padding: 1%;
-	height: 500px;
+	height: 529px;
 	background-color: rgb(0,0,0);
+	transition: opacity 1s;
+	overflow: hidden;
 }
 
 .p70 img {
 	width:110%;
 	border-radius: 50px;
+	
 }
 
 .p70:hover {
-	opacity: .99;
-	background-origin: 
+	opacity: .5;
+
 	
 }
 
 .p50:hover {
-	opacity: .99;
-	
+	opacity: .5;
+
 	
 }
 
 .p30:hover {
-	opacity: .99;
-	 
+	opacity: .5;
+
 }
 
 
@@ -259,11 +263,15 @@ img {
 	padding: 1%;
 	height: 250px;
 	background-color: rgb(0,0,0);
+	transition: opacity 1s;
+	overflow: hidden;
 }
 
 .p30 img {
 	width:110%;
 	border-radius: 50px;
+
+	
 
 }
 
@@ -273,11 +281,14 @@ img {
 	padding: 1%;
 	height: 500px;
 	background-color: rgb(0,0,0);
+	transition: opacity 1s;
+	overflow: hidden;
 }
 
 .p50 img {
 	width:110%;
 	border-radius: 50px;
+	
 }
 
 #blowupbox {
