@@ -183,6 +183,11 @@ h4 {
 	opacity: .99;
 }
 
+.image30 img:active {
+	opacity: .1;
+	transition: opacity 0s;
+}
+
 .image50 {
 	float: left;
 	width: 48%;
@@ -208,6 +213,11 @@ h4 {
 	opacity: .99;
 }
 
+.image50 img:active {
+	opacity: .1;
+	transition: opacity 0s;
+}
+
 .image70 {
 	float: left;
 	width: 68%;
@@ -231,6 +241,11 @@ h4 {
 
 .image70 img:hover {
 	opacity: .99;
+}
+
+.image70 img:active {
+	opacity: .1;
+	transition: opacity 0s;
 }
 
 .input-wrapper {
