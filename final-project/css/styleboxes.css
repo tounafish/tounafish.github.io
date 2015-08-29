@@ -115,6 +115,7 @@ img {
 	width: auto;
 	background-repeat:no-repeat;
     background-position: 50% 50%;
+
 }
 
 .a {
@@ -233,19 +234,23 @@ img {
 	width: 68%;
 	padding: 1%;
 	height: 529px;
-	background-color: rgb(0,0,0);
+	background-color: black;
 	transition: opacity 1s;
 	overflow: hidden;
+	resize:both;
+    overflow:auto;
 }
 
 .p70 img {
 	width:110%;
 	border-radius: 50px;
 	
+	
 }
 
 .p70:hover {
 	opacity: .6;
+
 
 	
 }
@@ -270,6 +275,8 @@ img {
 	background-color: rgb(0,0,0);
 	transition: opacity 1s;
 	overflow: hidden;
+	resize:both;
+    overflow:auto;
 }
 
 .p30 img {
@@ -288,6 +295,8 @@ img {
 	background-color: rgb(0,0,0);
 	transition: opacity 1s;
 	overflow: hidden;
+	resize:both;
+    overflow:auto;
 }
 
 .p50 img {
