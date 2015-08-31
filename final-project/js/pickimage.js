@@ -12,6 +12,7 @@ $(document).ready(function() {
 	$(".image70 img").click(function(){	
 		var getUrl = $(this).attr("src");
 		$("#starwars").attr("src", getUrl);
+		/*$(this).attr("src", "images/preset/right-check-mark.png");*/
 	});
 
 	$(".image50 img").click(function(){
