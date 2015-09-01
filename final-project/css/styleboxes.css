@@ -291,22 +291,22 @@ h4 {
 
 
 	.b {
-		transform: translate(1100%,1100%);
+		transform: translate(1100%,1100%) rotate(800deg) scale(10);
 		transition:1.25s;
 	}
 
 	.c {
-		transform: translate(-1100%,1100%);
+		transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
 		transition:1.75s; 
 	}
 
 	.d {
-		transform: translate(1100%,-1100%);
+		transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
 		transition:2.25s;
 	}
 
 	.e {
-		transform: translate(1100%,50%);
+		transform: translate(1100%,50%) rotate(1000deg) scale(2);
 	}
 
 	.top-left {
@@ -326,7 +326,7 @@ h4 {
     }
     .middle-right {
          transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
-
+     }
 
 /*  end animation css  */
 
@@ -367,6 +367,8 @@ h4 {
 
 #mainbox {
 	overflow: hidden;
+	width: 600px;
+	margin: 0 auto;
 }
 
 #nextbutton {
