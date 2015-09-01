@@ -8,19 +8,13 @@ $(document).ready(function () {
 
     $("div h1").fadeOut(6000);*/
 
-	var qwer={
-		"a0":"a",
-		"a1":"b",
-		"a2":"c",
-		"a3":"d"
-	}
+	var qwer=["a","b","c","d","e"];
 
 	setTimeout(function(){
 		var img = document.getElementsByTagName('img');
 		for(i=0;i<img.length;i++){
-			var index = "a"+Math.floor(Math.random()*4);
+			var index = Math.floor(Math.random()*5);
 			img[i].className=qwer[index];
 		}
 	}, 800)
-   	
 });

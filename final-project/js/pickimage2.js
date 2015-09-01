@@ -1,34 +1,28 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 
-	var qwer={
-		"a0":"a",
-		"a1":"b",
-		"a2":"c",
-		"a3":"d"
-	}
+/*	$("#clickme").click(function(){
 
-	setTimeout(function(){
-		var img = document.getElementsByTagName('img');
-		for(i=0;i<img.length;i++){
-			var index = "a"+Math.floor(Math.random()*4);
-			img[i].className=qwer[index];
-		}
-	},1000)
-});*/
+		var imgSrc = 
 
+		$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");
+		*$("#starwars").css("background-image", "url("+$("#getme").val()+")");
+	});
+	});*/
 
-   $(document).ready(function(){
-        var ind = $('.boxsize');
+	$(".imagex img").click(function(){	
+
+	    var ind = $('.boxsize');
         var top = 0;
         var left = 0;
+
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
             if(i<7){
                 left = left+75;
             }
             if(i==7){
-        left = 0;
-        top = 75;
+        		left = 0;
+       			top = 75;
             }
             if(i>7&&i<15){
                 left = left+75;
@@ -64,3 +58,5 @@
 
         }
     });
+
+});
