@@ -9,7 +9,7 @@ $(document).ready(function() {
 	});
 	});*/
 
-	$(".imagex img").click(function(){	
+	$(".animationdiv img").click(function(){	
 
 	   
         var ind = $('.boxsize');
