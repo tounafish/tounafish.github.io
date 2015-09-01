@@ -1,0 +1,137 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<div class="qwer">
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+    <div class="asd"></div>
+</div>
+<script> 
+    $(document).ready(function(){
+        var ind = $('.asd');
+        var top = 0;
+        var left = 0;
+        for(i=0; i < ind.length; i++){
+            ind[i].style.backgroundPosition = left+"px "+top+"px";
+            if(i<7){
+                left = left-75;
+            }
+            if(i==7){
+                left = 0;
+                top = -75;
+            }
+            if(i>7&&i<15){
+                left = left-75;
+            }
+            if(i==15){
+                left = 0;
+                top = -150;
+            }
+            if(i>15&&i<23){
+                left = left-75;
+            }
+            if(i==23){
+                left = 0;
+                top = -225;
+            }
+            if(i>23&&i<31){
+                left = left-75;
+            }
+            if(i==31){
+                left = 0;
+                top = -300;
+            }
+            if(i>31&&i<39){
+                left = left-75;
+            }
+            if(i==39){
+                left = 0;
+                top = -375;
+            }
+            if(i>39&&i<47){
+                left = left-75;
+            }
+        } 
+        
+    });
+    
+</script>
+<style>
+    *{
+        transition: transform 2s;
+    }
+    body{
+        width: 600px;
+        margin:25vh auto;
+        overflow: hidden;
+    }
+    .asd{
+        background-image: url(test.jpg);
+        float: left;
+        height: 75px;
+        width: 75px;
+    }
+    .top-left{
+        transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
+    }
+    .top-right{
+        transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
+    }
+    .bottom-left{
+        transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
+    }
+    .bottom-right{
+        transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
+    }
+    .midddle-left{
+        transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
+    }
+    .middle-right{
+         transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
+    }</style>
+<script>
+    var ind = $('.asd');
+    var x = ["top-left", "top-right", "bottom-left", "bottom-right", "midddle-left", "middle-right"]
+    setTimeout(function(){
+        for(i=0; i < ind.length; i++){
+            ind[i].className = ind[i].className + " "+ x[Math.floor(Math.random()*6)]
+        }
+    },2000)
+</script>
+
+</body>
