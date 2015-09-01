@@ -113,6 +113,12 @@ h4 {
 	transition:2.75s;
 }
 
+.animationdiv {
+	float: left;
+	background-color: black;
+	overflow: hidden;
+}
+
 .boxsize {
 	margin: 0 auto;
 	float:left;
@@ -170,12 +176,6 @@ h4 {
 
 .hidden {
 	display: none;
-}
-
-.animationdiv {
-	float: left;
-	background-color: black;
-	overflow: hidden;
 }
 
 .image30 {
@@ -281,6 +281,59 @@ h4 {
 .lettersize img{
 	height: 100%
 }
+
+/*  animation css  */
+
+	.a {
+		transform: translate(-1100%,-1100%);
+		transition:1s;
+	}
+
+
+	.b {
+		transform: translate(1100%,1100%);
+		transition:1.25s;
+	}
+
+	.c {
+		transform: translate(-1100%,1100%);
+		transition:1.75s; 
+	}
+
+	.d {
+		transform: translate(1100%,-1100%);
+		transition:2.25s;
+	}
+
+	.e {
+		transform: translate(1100%,50%);
+	}
+
+	.top-left {
+        transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
+    }
+    .top-right {
+        transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
+    }
+    .bottom-left {
+        transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
+    }
+    .bottom-right {
+        transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
+    }
+    .midddle-left {
+        transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
+    }
+    .middle-right {
+         transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
+
+
+/*  end animation css  */
+
+
+
+
+
 
 #blowupbox {
 	background: url("") center no-repeat;
