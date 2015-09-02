@@ -71,7 +71,7 @@ h3 {
 
 h4 {
 	margin-top: 1em;
-	width:40%;
+	width:50%;
 	height: 2em;
 	line-height: 2em;
 	font-size: 4em;
@@ -83,6 +83,7 @@ h4 {
 	border: 4px solid #c0392b;
 	border-radius: 15px;
 	text-shadow: 3px 3px 8px #000000;
+	margin: 0 auto;
 }
 
 .a {
@@ -135,7 +136,7 @@ h4 {
 
 .dynomite-wrapper {
 	border: 2px solid #fff;
-	width: 25%;
+	width: 35%;
 	display: inline-block;
 	color: #ccc;
 	margin-top: 80px;
