@@ -17,4 +17,7 @@ $(document).ready(function () {
 			img[i].className=qwer[index];
 		}
 	}, 800)
+
+	.delay(5000);
+	window.location.href = "pickimage.html";
 });
