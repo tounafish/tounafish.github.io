@@ -329,7 +329,7 @@ h4 {
 	width: 40%;
 	width: 260px;
 	height: 260px;
-	display: block;
+	display: hidden;
 	background: transparent url("../images/detonACT.svg") center top no-repeat;
 }
 
@@ -342,6 +342,7 @@ h4 {
 }
 
 #logo{
+	display: block;
 	margin: 20px auto;
 	width: 65%;
 }

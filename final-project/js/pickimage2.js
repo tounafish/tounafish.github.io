@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-	$(".animationdiv img").on('click',function(){	
-		var src = $(this).attr('src');
+	$(".animationdiv img").on("click",function(){	
+		var src = $(this).attr("src");
 	   
-        var ind = $('.boxsize');
+        var ind = $(".boxsize");
         var top = 0;
         var left = 0;
 
@@ -48,9 +48,25 @@ $(document).ready(function() {
                 left = left-75;
             }
         } 
-        
-        $(".boxsize").css('background-image',"url("+src+")");
+
+        $(".boxsize").css("background-image","url("+src+")");
         $("body").animate({scrollTop: 0}, "slow");
+
+        $("#detonator").css("display", "block");
+        $("#logo").css("display", "none");
+
+        $("#detonator").on("click",function(){
+
+            var ind = $(".boxsize");
+            var x = ["top-left", "top-right", "bottom-left", "bottom-right", "midddle-left", "middle-right"]
+        setTimeout(function(){
+            for(i=0; i < ind.length; i++){
+                ind[i].className = ind[i].className + " "+ x[Math.floor(Math.random()*6)]
+            }
+    },2000)
+        });
+
+        
     });
 
 });
