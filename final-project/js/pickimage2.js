@@ -1,17 +1,7 @@
 $(document).ready(function() {
 
-/*	$("#clickme").click(function(){
-
-		var imgSrc = 
-
-		$("#blowupbox").css("background-image", "url("+$("#getme").val()+")");
-		*$("#starwars").css("background-image", "url("+$("#getme").val()+")");
-	});
-	});*/
-
 	$(".animationdiv img").on('click',function(){	
 		var src = $(this).attr('src');
-		alert(src)
 	   
         var ind = $('.boxsize');
         var top = 0;
@@ -59,6 +49,8 @@ $(document).ready(function() {
             }
         } 
         
+        $(".boxsize").css('background-image',"url("+src+")");
+        $("body").animate({scrollTop: 0}, "slow");
     });
 
 });
