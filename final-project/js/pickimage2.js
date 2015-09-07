@@ -9,12 +9,14 @@ $(document).ready(function() {
 	});
 	});*/
 
-	$(".animationdiv img").click(function(){	
-
+	$(".animationdiv img").on('click',function(){	
+		var src = $(this).attr('src');
+		alert(src)
 	   
         var ind = $('.boxsize');
         var top = 0;
         var left = 0;
+
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
             if(i<7){
