@@ -66,7 +66,7 @@ $(document).ready(function() {
     },2000)
         });
 
-        
+        $(".reset").removeClass();
     });
 
 });
