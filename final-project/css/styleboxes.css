@@ -71,10 +71,10 @@ h3 {
 
 h4 {
 	margin-top: 1em;
-	width:50%;
+	width:40%;
 	height: 2em;
 	line-height: 2em;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
 	color: white;
@@ -111,7 +111,7 @@ h4 {
 	transition:2.75s;
 }
 
-.animationdiv {
+.chosenimg {
 	float: left;
 	background-color: black;
 	overflow: hidden;

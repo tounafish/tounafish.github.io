@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$(".animationdiv img").on("click",function(){	
+	$(".chosenimg img").on("click",function(){	
 		var src = $(this).attr("src");
 	   
         var ind = $(".boxsize");
