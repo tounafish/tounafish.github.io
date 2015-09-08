@@ -1,3 +1,9 @@
+function test(){
+	setTimeout(function(){
+		window.location.href = "pickimage.html";
+	}, 2000)
+};
+
 $(document).ready(function () {
 /*	   $("div.hidden").fadeIn(3000, function(){
 	    $("div.letter").animate({
@@ -16,8 +22,9 @@ $(document).ready(function () {
 			var index = Math.floor(Math.random()*5);
 			img[i].className=qwer[index];
 		}
+		test();
 	}, 800)
 
-	.delay(5000);
-	window.location.href = "pickimage.html";
+
+	
 });

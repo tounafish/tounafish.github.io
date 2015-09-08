@@ -8,7 +8,7 @@ $(document).ready(function() {
         var left = 0;
         var percent = 0.5;
 
-        $(this).attr("width", "50%");
+        $(this).css("width", "50%");
 
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
@@ -67,7 +67,7 @@ $(document).ready(function() {
         var left = 0;
         var percent = 0.66666667;
 
-        $(this).attr("width", "66%");
+        $(this).css("width", "66%");
 
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
