@@ -8,7 +8,7 @@ $(document).ready(function() {
         var left = 0;
         var percent = 0.5;
 
-        $(this).css("width", "50%");
+        
 
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
@@ -54,7 +54,11 @@ $(document).ready(function() {
 
         //loads image and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
+        /*$(".boxsize img").style.css("width", "50%");*/
         $("body").animate({scrollTop: 0}, "slow");
+        $("#detonator").css("display", "block");
+        $("#logo").css("display", "none");
+
         });
 
 
@@ -67,8 +71,6 @@ $(document).ready(function() {
         var left = 0;
         var percent = 0.66666667;
 
-        $(this).css("width", "66%");
-
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
             if(i<7){
@@ -113,7 +115,11 @@ $(document).ready(function() {
 
         //loads image and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
+        /*$(".boxsize img").style.css("width", "66.667%");*/
         $("body").animate({scrollTop: 0}, "slow");
+        $("#detonator").css("display", "block");
+        $("#logo").css("display", "none");
+
         });
 
 
@@ -170,13 +176,14 @@ $(document).ready(function() {
         //loads image and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
         $("body").animate({scrollTop: 0}, "slow");
+        $("#detonator").css("display", "block");
+        $("#logo").css("display", "none");
+
         });
 
 
         //show detonator and hides logo
-        $("#detonator").css("display", "block");
-        $("#logo").css("display", "none");
-
+        
 
         //click detonator to explode boxes
         $("#detonator").on("click",function(){
@@ -186,10 +193,12 @@ $(document).ready(function() {
             for(i=0; i < ind.length; i++){
                 ind[i].className = ind[i].className + " "+ x[Math.floor(Math.random()*6)]
             }
+
         },100)
 
-        //shows reset button after explosion
+        //shows reset button after explosion and plays sound
         $(".reset").removeClass();
+        audio.play();
             });
 
     

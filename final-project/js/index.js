@@ -1,7 +1,7 @@
 function test(){
 	setTimeout(function(){
 		window.location.href = "pickimage.html";
-	}, 2000)
+	}, 3500)
 };
 
 $(document).ready(function () {
@@ -23,7 +23,7 @@ $(document).ready(function () {
 			img[i].className=qwer[index];
 		}
 		test();
-	}, 800)
+	}, 900)
 
 
 	
