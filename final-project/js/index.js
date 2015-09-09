@@ -1,7 +1,7 @@
 function test(){
 	setTimeout(function(){
 		window.location.href = "pickimage.html";
-	}, 3500)
+	}, 4500)
 };
 
 $(document).ready(function () {
