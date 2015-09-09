@@ -186,15 +186,11 @@ $(document).ready(function() {
             for(i=0; i < ind.length; i++){
                 ind[i].className = ind[i].className + " "+ x[Math.floor(Math.random()*6)]
             }
-        },2000)
+        },100)
 
         //shows reset button after explosion
         $(".reset").removeClass();
             });
-
-
-        
-        
 
     
 });
