@@ -92,6 +92,10 @@ h5 {
 	min-height: 2em;
 }
 
+input {
+	text-align: center;
+}
+
 .a {
 	transform: translate(-1100%,-1100%);
 	transition:1s;
