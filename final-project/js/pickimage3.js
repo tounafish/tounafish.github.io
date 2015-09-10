@@ -10,6 +10,7 @@ $(document).ready(function() {
         $(".boxsize").css("transition", "transform "+100/speed+"s");
         $(".jack").addClass("hidden");
         $(".box-footer").removeClass("hidden");
+        $("footer").removeClass("hidden");
     });
 
     // large images 1200px that will be changed to 600px
