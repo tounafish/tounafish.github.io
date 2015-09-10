@@ -31,7 +31,7 @@ a:visited {
 
 button {
 	width: 150px;
-	height: 40px;
+	height: 44px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: .35em;
@@ -480,6 +480,16 @@ input {
 		padding: 1%;
 		height: auto;
 		background-color: rgba(0,0,0,1);
+	}
+
+	button {
+	width: 150px;
+	height: 44px;
+	font-size: .7em;
+	}
+
+	#logo{
+	width: 85%;
 	}
 
 
