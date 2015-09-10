@@ -210,6 +210,7 @@ $(document).ready(function() {
             //shows reset button after explosion and plays sound
             $(".reset").removeClass();
             $("#detonator").css("display", "none");
+            $("#logo").css("display", "block");
             var audio = $("audio")[0];
             audio.play();
         });

@@ -87,6 +87,11 @@ h4 {
 	clear: both;
 }
 
+h5 {
+	width: 100%;	
+	min-height: 2em;
+}
+
 .a {
 	transform: translate(-1100%,-1100%);
 	transition:1s;
@@ -145,11 +150,12 @@ h4 {
 
 .dynomite-wrapper {
 	border: 2px solid #fff;
-	width: 35%;
+	width: 25%;
 	display: inline-block;
 	color: #ccc;
 	margin-top: 80px;
 	padding-bottom: 15px;
+	text-align: center;
 }
 
 .dynomite-wrapper input {
