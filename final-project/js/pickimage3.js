@@ -7,6 +7,7 @@ $(document).ready(function() {
         var speed = $("#getme").val();
         $(".boxsize").css("transition", "transform "+100/speed+"s");
         $(".jack").addClass("hidden");
+        $(".box-footer").removeClass("hidden");
     });
 
     // large images 1200px
@@ -66,7 +67,7 @@ $(document).ready(function() {
         //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
-
+        $(".box-footer").addClass("hidden");
         });
 
 
@@ -127,7 +128,7 @@ $(document).ready(function() {
         //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
-
+        $(".box-footer").addClass("hidden");
         });
 
 
@@ -188,7 +189,7 @@ $(document).ready(function() {
         //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
-
+        $(".box-footer").addClass("hidden");
         });
 
 
@@ -208,6 +209,7 @@ $(document).ready(function() {
 
             //shows reset button after explosion and plays sound
             $(".reset").removeClass();
+            $("#detonator").css("display", "none");
             var audio = $("audio")[0];
             audio.play();
         });
