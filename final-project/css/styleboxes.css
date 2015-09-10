@@ -5,6 +5,7 @@ body {
 	font-size: 12px;
 	margin: 0 auto;
 	text-align: center;
+	overflow-x: hidden;
 }
 
 a {
@@ -94,6 +95,10 @@ h5 {
 
 input {
 	text-align: center;
+}
+
+input:focus {
+	outline:0;
 }
 
 .a {
