@@ -137,10 +137,12 @@ input {
 	background-color: transparent;
 	padding: 0;
 	background-repeat: no-repeat;
+
 }
 
 .boxsize img {
 	width:100%;
+
 }
 
 .clear {
