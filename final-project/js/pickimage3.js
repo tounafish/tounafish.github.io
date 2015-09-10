@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var speed = 10;
+    var speed = 8;
  
     /*speed = prompt("Enter speed");*/
     $("#submitme").on("click",function(){
@@ -10,7 +10,7 @@ $(document).ready(function() {
         $(".box-footer").removeClass("hidden");
     });
 
-    // large images 1200px
+    // large images 1200px that will be changed to 600px
 	$(".image70 img").on("click",function(){	
 		var src = $(this).attr("src");
         var ind = $(".boxsize");
@@ -71,7 +71,7 @@ $(document).ready(function() {
         });
 
 
-        //medium image 900px
+        //medium image 900px that will be changed to 600px
         $(".image50 img").on("click",function(){   
         var src = $(this).attr("src");
         var ind = $(".boxsize");
@@ -193,8 +193,7 @@ $(document).ready(function() {
         });
 
 
-        
-        
+
 
         //click detonator to explode boxes
         $("#detonator").on("click",function(){
