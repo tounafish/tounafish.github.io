@@ -1,14 +1,20 @@
 $(document).ready(function() {
 
+    var speed = 10;
+ 
+    /*speed = prompt("Enter speed");*/
+    $("#submitme").on("click",function(){
+        var speed = $("#getme").val();
+        $(".boxsize").css("transition", "transform "+100/speed+"s");
+        $(".jack").addClass("hidden");
+    });
+
     // large images 1200px
 	$(".image70 img").on("click",function(){	
 		var src = $(this).attr("src");
         var ind = $(".boxsize");
         var top = 0;
         var left = 0;
-        var percent = 0.5;
-
-        
 
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
@@ -52,10 +58,12 @@ $(document).ready(function() {
             }
         } 
 
-        //loads image and scrolls to top
+        //loads image, resizes and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
-        /*$(".boxsize img").style.css("width", "50%");*/
+        $(".boxsize").css("background-size", "600px");
         $("body").animate({scrollTop: 0}, "slow");
+
+        //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
 
@@ -65,11 +73,9 @@ $(document).ready(function() {
         //medium image 900px
         $(".image50 img").on("click",function(){   
         var src = $(this).attr("src");
-       
         var ind = $(".boxsize");
         var top = 0;
         var left = 0;
-        var percent = 0.66666667;
 
         for(i=0; i < ind.length; i++){
             ind[i].style.backgroundPosition = left+"px "+top+"px";
@@ -113,10 +119,12 @@ $(document).ready(function() {
             }
         } 
 
-        //loads image and scrolls to top
+        //loads image, resizes and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
-        /*$(".boxsize img").style.css("width", "66.667%");*/
+        $(".boxsize").css("background-size", "600px");
         $("body").animate({scrollTop: 0}, "slow");
+
+        //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
 
@@ -176,13 +184,15 @@ $(document).ready(function() {
         //loads image and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
         $("body").animate({scrollTop: 0}, "slow");
+
+        //show detonator and hides logo
         $("#detonator").css("display", "block");
         $("#logo").css("display", "none");
 
         });
 
 
-        //show detonator and hides logo
+        
         
 
         //click detonator to explode boxes
@@ -194,12 +204,13 @@ $(document).ready(function() {
                 ind[i].className = ind[i].className + " "+ x[Math.floor(Math.random()*6)]
             }
 
-        },100)
+        },100);
 
-        //shows reset button after explosion and plays sound
-        $(".reset").removeClass();
-        audio.play();
-            });
+            //shows reset button after explosion and plays sound
+            $(".reset").removeClass();
+            var audio = $("audio")[0];
+            audio.play();
+        });
 
     
 });
