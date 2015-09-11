@@ -8,6 +8,7 @@ $(document).ready(function() {
     $("#submitme").on("click",function(){
         var speed = $("#getme").val();
         $(".boxsize").css("transition", "transform "+100/speed+"s");
+        $(".boxsize").css("-webkit-transition", "-webkit-transform "+100/speed+"s");
         $(".jack").addClass("hidden");
         $(".box-footer").removeClass("hidden");
         $("footer").removeClass("hidden");
@@ -65,7 +66,7 @@ $(document).ready(function() {
         //loads image, resizes and scrolls to top
         $(".boxsize").css("background-image","url("+src+")");
         $(".boxsize").css("background-size", "600px");
-        $("body").animate({scrollTop: 0}, "slow");
+        $("body, html").animate({scrollTop: 0}, "slow");
 
         //show detonator and hides logo
         $("#detonator").css("display", "block");
