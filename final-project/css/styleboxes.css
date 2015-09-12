@@ -566,9 +566,19 @@ input:focus {
 	font-size: .7em;
 	}
 
-	#logo{`
+	#logo{
 	width: 85%;
 	}
+
+	h4 {
+	margin-top: 2em;
+	width:60%;
+	height: 4em;
+	line-height: 4em;
+	font-size: 4em;
+	}
+
+
 
 
 }
