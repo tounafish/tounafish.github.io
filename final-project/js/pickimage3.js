@@ -1,18 +1,30 @@
 $(document).ready(function() {
+/*     user is first asked to enter dynomite amount so the preset photos is hidden.
+        After entering amount, the paste your own image or choose one is shown.
+        Then the logo is hidden and detonator is shown.
+        After clicking detonator, the logo and let's do it again button is shown.
+*/
 
 
-
+    //default speed if nothing is entered
     var speed = 8;
  
-    /*speed = prompt("Enter speed");*/
+    /* first promt is for the user to enter the amount of dynomite to use.
+       This will set the speed of the animation.
+       Hidden: 
+       1. Paste URL field
+       2. Images
+       3. Reset button  */
     $("#submitme").on("click",function(){
         var speed = $("#getme").val();
         $(".boxsize").css("transition", "transform "+100/speed+"s");
         $(".boxsize").css("-webkit-transition", "-webkit-transform "+100/speed+"s");
-        $(".jack").addClass("hidden");
+        $(".dynoamounts").addClass("hidden");
         $(".box-footer").removeClass("hidden");
         $("footer").removeClass("hidden");
+
     });
+
 
     // large images 1200px that will be changed to 600px
 	$(".image70 img").on("click",function(){	
@@ -64,6 +76,7 @@ $(document).ready(function() {
         } 
 
         //loads image, resizes and scrolls to top
+        $(".mainbox").removeClass("hidden");
         $(".boxsize").css("background-image","url("+src+")");
         $(".boxsize").css("background-size", "600px");
         $("body, html").animate({scrollTop: 0}, "slow");
@@ -125,6 +138,7 @@ $(document).ready(function() {
         } 
 
         //loads image, resizes and scrolls to top
+        $(".mainbox").removeClass("hidden");
         $(".boxsize").css("background-image","url("+src+")");
         $(".boxsize").css("background-size", "600px");
         $("body").animate({scrollTop: 0}, "slow");
@@ -187,6 +201,7 @@ $(document).ready(function() {
         } 
 
         //loads image and scrolls to top
+        $(".mainbox").removeClass("hidden");
         $(".boxsize").css("background-image","url("+src+")");
         $("body").animate({scrollTop: 0}, "slow");
 
@@ -250,6 +265,7 @@ $(document).ready(function() {
         } 
 
         //loads image, resizes and scrolls to top
+        $(".mainbox").removeClass("hidden");
         $(".boxsize").css("background-image","url("+src+")");
         $(".boxsize").css("background-size", "600px");
         $("body").animate({scrollTop: 0}, "slow");
@@ -286,6 +302,10 @@ $(document).ready(function() {
             var audio = $("audio")[0];
             audio.play();
         });
+/*
+        $(".reset").on("click",function(){
+            $(".mainbox").addClass("hidden");
+        });*/
 
     
 });

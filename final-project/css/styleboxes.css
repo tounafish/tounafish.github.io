@@ -321,6 +321,11 @@ input:focus {
 	height: 100%
 }
 
+.mainbox {
+	width: 600px;
+	margin: 0 auto;
+}
+
 .reset {
 	display: none;
 }
@@ -443,12 +448,6 @@ input:focus {
 	width: 65%;
 }
 
-#mainbox {
-	/*overflow: hidden;*/
-	width: 600px;
-	margin: 0 auto;
-}
-
 #nextbutton {
 	background-color: #145c8c;
 }
@@ -521,7 +520,6 @@ input:focus {
 	body {
 		font-size: 5px;
 	}
-	
 
 	.image70 {
 		float: left;
