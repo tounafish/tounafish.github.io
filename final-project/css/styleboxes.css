@@ -102,28 +102,43 @@ input:focus {
 }
 
 .a {
-	transform: translate(-1100%,-1100%);
-	transition:1s;
+	-webkit-transform: translate(-1100%,-1100%);
+	    -ms-transform: translate(-1100%,-1100%);
+	        transform: translate(-1100%,-1100%);
+	-webkit-transition:1s;
+	        transition:1s;
 }
 
 .b {
-	transform: translate(1100%,1100%);
-	transition:1.25s;
+	-webkit-transform: translate(1100%,1100%);
+	    -ms-transform: translate(1100%,1100%);
+	        transform: translate(1100%,1100%);
+	-webkit-transition:1.25s;
+	        transition:1.25s;
 }
 
 .c {
-	transform: translate(-1100%,1100%);
-	transition:1.75s; 
+	-webkit-transform: translate(-1100%,1100%);
+	    -ms-transform: translate(-1100%,1100%);
+	        transform: translate(-1100%,1100%);
+	-webkit-transition:1.75s;
+	        transition:1.75s; 
 }
 
 .d {
-	transform: translate(1100%,-1100%);
-	transition:2.25s;
+	-webkit-transform: translate(1100%,-1100%);
+	    -ms-transform: translate(1100%,-1100%);
+	        transform: translate(1100%,-1100%);
+	-webkit-transition:2.25s;
+	        transition:2.25s;
 }
 
 .e {
-	transform: translate(1100%,50%);
-	transition:2.75s;
+	-webkit-transform: translate(1100%,50%);
+	    -ms-transform: translate(1100%,50%);
+	        transform: translate(1100%,50%);
+	-webkit-transition:2.75s;
+	        transition:2.75s;
 }
 
 .chosenimg {
@@ -199,18 +214,23 @@ input:focus {
 	outline-color: black;
 	outline-style: solid;
     outline-width: 15px;
-    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+            transition: opacity 1s;
     background-color: black;
     opacity: .5;
+    filter: alpha(opacity=50);
 }
 
 .image30 img:hover {
 	opacity: .99;
+	filter: alpha(opacity=99);
 }
 
 .image30 img:active {
 	opacity: .1;
-	transition: opacity 0s;
+	filter: alpha(opacity=10);
+	-webkit-transition: opacity 0s;
+	        transition: opacity 0s;
 }
 
 .image50 {
@@ -225,18 +245,23 @@ input:focus {
 	outline-color: black;
 	outline-style: solid;
     outline-width: 15px;
-    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+            transition: opacity 1s;
     background-color: black;
     opacity: .5;
+    filter: alpha(opacity=50);
 }
 
 .image50 img:hover {
 	opacity: .99;
+	filter: alpha(opacity=99);
 }
 
 .image50 img:active {
 	opacity: .1;
-	transition: opacity 0s;
+	filter: alpha(opacity=10);
+	-webkit-transition: opacity 0s;
+	        transition: opacity 0s;
 }
 
 .image70 {
@@ -251,18 +276,23 @@ input:focus {
 	outline-color: black;
 	outline-style: solid;
     outline-width: 15px;
-    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+            transition: opacity 1s;
     background-color: black;
     opacity: .5;
+    filter: alpha(opacity=50);
 }
 
 .image70 img:hover {
 	opacity: .99;
+	filter: alpha(opacity=99);
 }
 
 .image70 img:active {
 	opacity: .1;
-	transition: opacity 0s;
+	filter: alpha(opacity=10);
+	-webkit-transition: opacity 0s;
+	        transition: opacity 0s;
 }
 
 .input-wrapper {
@@ -299,102 +329,79 @@ input:focus {
 
 	.a {
 		-webkit-transform: translate(-1100%,-1100%);
+		    -ms-transform: translate(-1100%,-1100%);
+		        transform: translate(-1100%,-1100%);
 		-webkit-transition:1s;
-		-moz-transform: translate(-1100%,-1100%);
-		-moz-transition:1s;
-		-ms-transform: translate(-1100%,-1100%);
-		-ms-transition:1s;
-		transform: translate(-1100%,-1100%);
-		transition:1s;
+		        transition:1s;
 	}
 
 
 	.b {
 		-webkit-transform: translate(1100%,1100%) rotate(800deg) scale(10);
+		    -ms-transform: translate(1100%,1100%) rotate(800deg) scale(10);
+		        transform: translate(1100%,1100%) rotate(800deg) scale(10);
 		-webkit-transition:1.25s;
-		-moz-transform: translate(1100%,1100%) rotate(800deg) scale(10);
-		-moz-transition:1.25s;
-		-ms-transform: translate(1100%,1100%) rotate(800deg) scale(10);
-		-ms-transition:1.25s;
-		transform: translate(1100%,1100%) rotate(800deg) scale(10);
-		transition:1.25s;
+		        transition:1.25s;
 	}
 
 	.c {
 		-webkit-transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
-		-webkit-transition:1.75s; 
-		-moz-transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
-		-moz-transition:1.75s; 
-		-ms-transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
-		-ms-transition:1.75s; 
-		transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
-		transition:1.75s; 
+		    -ms-transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
+		        transform: translate(-1100%,1100%) rotate(1100deg) scale(10);
+		-webkit-transition:1.75s;
+		        transition:1.75s; 
 	}
 
 	.d {
 		-webkit-transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
+		    -ms-transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
+		        transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
 		-webkit-transition:2.25s;
-		-moz-transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
-		-moz-transition:2.25s;
-		-ms-transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
-		-ms-transition:2.25s;
-		transform: translate(1100%,-1100%) rotate(900deg) scale(-10);
-		transition:2.25s;
+		        transition:2.25s;
 	}
 
 	.e {
-		-webkit-transform: translate(1100%,50%) rotate(1000deg) scale(2);
-		-webkit-transition:1.15s;
-		-moz-transform: translate(1100%,50%) rotate(1000deg) scale(2);
-		-moz-transition:1.15s;
-		-ms-transform: translate(1100%,50%) rotate(1000deg) scale(2);
-		-ms-transition:1.15s;
-		transform: translate(1100%,50%) rotate(1000deg) scale(2);
-		transition:1.15s;
+	    -webkit-transform: translate(1100%,50%) rotate(1000deg) scale(2);
+	        -ms-transform: translate(1100%,50%) rotate(1000deg) scale(2);
+	            transform: translate(1100%,50%) rotate(1000deg) scale(2);
+	    -webkit-transition:1.15s;
+	            transition:1.15s;
 	}
 	.boxsize{
-		-webkit-transition:transform 4s;
-		-moz-transition:transform 4s;
-		-ms-transition:transform 4s;
-		transition:transform 4s;
+		-webkit-transition:-webkit-transform 4s;
+		        transition:transform 4s;
 	}
 
 	.top-left {
-		-webkit-transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
-		-moz-transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
-		-ms-transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
-        transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
+        -webkit-transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
+            -ms-transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
+                transform: translate(-2000px, -2000px) rotate(1000deg) scale(10);
     }
     .top-right {
         -webkit-transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
-        -moz-transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
-        -ms-transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
-        transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
+            -ms-transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
+                transform: translate(-2000px, 2000px) rotate(-1000deg) scale(10);
     }
     .bottom-left {
         -webkit-transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
-        -moz-transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
-        -ms-transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
-        transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
+            -ms-transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
+                transform: translate(2000px, -2000px) rotate(1000deg) scale(-8);
     }
     .bottom-right {
         -webkit-transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
-        -moz-transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
-        -ms-transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
-        transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
+            -ms-transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
+                transform: translate(2000px, 2000px) rotate(-1000deg) scale(-8);
     }
     .midddle-left {
         -webkit-transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
-        -moz-transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
-        -ms-transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
-        transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
+            -ms-transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
+                transform: translate(-2000px, 40vh) rotate(1000deg) scale(15);
 
     }
-    .middle-right {
+	.middle-right {
          -webkit-transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
-         -moz-transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
-         -ms-transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
-         transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
+             -ms-transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
+                 transform: translate(2000px, 40vh) rotate(-1000deg) scale(15);
      }
 
 /*  end animation css  */
@@ -445,8 +452,6 @@ input:focus {
 #nextbutton {
 	background-color: #145c8c;
 }
-
-
 
 #starwars {
 	width: auto;
