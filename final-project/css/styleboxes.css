@@ -521,6 +521,7 @@ input:focus {
 	body {
 		font-size: 5px;
 	}
+	
 
 	.image70 {
 		float: left;
@@ -528,6 +529,11 @@ input:focus {
 		padding: 1%;
 		height: auto;
 		background-color: rgba(0,0,0,1);
+	}
+
+	.image70 img {
+		width: 100%;
+		border-radius: 0;
 	}
 
 	.image30 {
@@ -538,6 +544,11 @@ input:focus {
 		background-color: rgba(0,0,0,1);
 	}
 
+	.image30 img {
+		width: 100%;
+		border-radius: 0;
+	}
+
 	.image50 {
 		float: left;
 		width: 98%;
@@ -546,13 +557,18 @@ input:focus {
 		background-color: rgba(0,0,0,1);
 	}
 
+	.image50 img {
+		width: 100%;
+		border-radius: 0;
+	}
+
 	button {
 	width: 150px;
 	height: 44px;
 	font-size: .7em;
 	}
 
-	#logo{
+	#logo{`
 	width: 85%;
 	}
 
