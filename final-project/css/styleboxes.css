@@ -307,7 +307,6 @@ input:focus {
 		        transition:1s;
 	}
 
-
 	.b {
 		-webkit-transform: translate(1100%,1100%) rotate(800deg) scale(10);
 		    -ms-transform: translate(1100%,1100%) rotate(800deg) scale(10);
@@ -546,10 +545,6 @@ input:focus {
 	}
 
 
-
-
 }
 
-/*@media only screen and (max-width: 768px){
-*/
 
