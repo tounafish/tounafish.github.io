@@ -101,46 +101,6 @@ input:focus {
 	outline:0;
 }
 
-.a {
-	-webkit-transform: translate(-1100%,-1100%);
-	    -ms-transform: translate(-1100%,-1100%);
-	        transform: translate(-1100%,-1100%);
-	-webkit-transition:1s;
-	        transition:1s;
-}
-
-.b {
-	-webkit-transform: translate(1100%,1100%);
-	    -ms-transform: translate(1100%,1100%);
-	        transform: translate(1100%,1100%);
-	-webkit-transition:1.25s;
-	        transition:1.25s;
-}
-
-.c {
-	-webkit-transform: translate(-1100%,1100%);
-	    -ms-transform: translate(-1100%,1100%);
-	        transform: translate(-1100%,1100%);
-	-webkit-transition:1.75s;
-	        transition:1.75s; 
-}
-
-.d {
-	-webkit-transform: translate(1100%,-1100%);
-	    -ms-transform: translate(1100%,-1100%);
-	        transform: translate(1100%,-1100%);
-	-webkit-transition:2.25s;
-	        transition:2.25s;
-}
-
-.e {
-	-webkit-transform: translate(1100%,50%);
-	    -ms-transform: translate(1100%,50%);
-	        transform: translate(1100%,50%);
-	-webkit-transition:2.75s;
-	        transition:2.75s;
-}
-
 .chosenimg {
 	width: 100%;
 	float: left;
