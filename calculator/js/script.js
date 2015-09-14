@@ -1,6 +1,45 @@
 $(document).ready(function() {
-	$(".all").click(function(){
+	$(".white").click(function(){
 		$(".answerbox").html("Asshole");
+	});
+	$("#C").click(function(){
+		$(".answerbox").html("0");
+	});
+	$("#zero").click(function(){
+		$(".answerbox").html("0");
+	});
+	$("#zerozero").click(function(){
+		$(".answerbox").html("00");
+	});
+	$("#one").click(function(){
+		$(".answerbox").html("1");
+	});
+	$("#two").click(function(){
+		$(".answerbox").html("2");
+	});
+	$("#three").click(function(){
+		$(".answerbox").html("3");
+	});
+	$("#four").click(function(){
+		$(".answerbox").html("4");
+	});
+	$("#five").click(function(){
+		$(".answerbox").html("5");
+	});
+	$("#six").click(function(){
+		$(".answerbox").html("6");
+	});
+	$("#seven").click(function(){
+		$(".answerbox").html("7");
+	});
+	$("#eight").click(function(){
+		$(".answerbox").html("8");
+	});
+	$("#nine").click(function(){
+		$(".answerbox").html("9");
+	});
+	$("#period").click(function(){
+		$(".answerbox").html(".");
 	});
 	
 });
