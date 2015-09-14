@@ -29,7 +29,7 @@ body {
 	height: 91px;
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 1px solid #2c3e50;
 	font-size: 4.5em;
 	line-height: 1.75em;
 }
@@ -43,7 +43,7 @@ body {
 	opacity: .3;
 	filter: alpha(opacity=30);
 }
-.grey {
+.yellow {
 	background-color: #f1c40f;
 }
 
