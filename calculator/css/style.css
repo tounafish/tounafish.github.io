@@ -36,12 +36,13 @@ body {
 
 .box:hover {
 	opacity: .8;
+	filter: alpha(opacity=80);
 }
 
 .box:active {
 	opacity: .3;
+	filter: alpha(opacity=30);
 }
-
 .grey {
 	background-color: #f1c40f;
 }
