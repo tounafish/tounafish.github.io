@@ -34,8 +34,16 @@ body {
 	line-height: 1.75em;
 }
 
+.box:hover {
+	opacity: .8;
+}
+
+.box:active {
+	opacity: .3;
+}
+
 .grey {
-	background-color: #bdc3c7;
+	background-color: #f1c40f;
 }
 
 .white {
