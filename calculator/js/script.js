@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".all").click(function(){
-		alert("IT WORKS ASSHOLE!");
+		$(".answerbox").html("Asshole");
 	});
 	
 });
