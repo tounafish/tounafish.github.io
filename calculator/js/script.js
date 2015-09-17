@@ -3,10 +3,16 @@ $(document).ready(function() {
 	var GrandTotal = 0;
 
 	$(".white").click(function(){
-		var num = $(this).val();
+		/*var num = $(this).val();*/
 		var num = $(this).text(); 
-		$(".answerbox").html(num);
+		if($(".answerbox").html()==0){
+			$(".answerbox").html(num);
+		}else{
+			$(".answerbox").html($(".answerbox").html()+num);
+		}
 	});
+
+
 
 	$("#C").click(function(){
 		$(".answerbox").html("0");
