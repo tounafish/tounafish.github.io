@@ -21,6 +21,8 @@ body {
 	text-align: right;
 	padding: 0 15px;
 	box-sizing: border-box;
+	overflow-x:hidden;
+	direction: rtl;
 }
 
 .box {
