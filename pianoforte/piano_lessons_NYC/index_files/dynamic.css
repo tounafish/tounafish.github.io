@@ -1,0 +1,95 @@
+/* BEGIN custom_css */
+/* DO NOT CHANGE THE CODE BELOW */
+
+html {
+	background-color: ;
+	background-repeat: ;
+	background-attachment: ;
+	background-position: ;
+	background-size: ;
+	background-image: url("");
+}
+
+.navbar {
+	background-color: ;
+	background-repeat: ;
+	background-attachment: ;
+	background-position: ;
+	background-size: ;
+	background-image: url("");
+}
+.dropdown-menu { background-color: ; }
+
+body > footer {
+	background-color: ;
+	background-repeat: ;
+	background-attachment: ;
+	background-position: ;
+	background-size: ;
+	background-image: url("");
+}
+
+body { color: ; }
+h1,h2,h3 { color: ; }
+h4,h5,h6 { color: ; }
+
+.scheme-alternative body { color: ; }
+.scheme-alternative h1,.scheme-alternative h2,.scheme-alternative h3 { color: ; }
+.scheme-alternative h4,.scheme-alternative h5,.scheme-alternative h6 { color: ; }
+
+a,
+a:hover,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus { color: ; }
+
+.btn-primary,
+.teaser .icon { background-color: ; }
+
+.btn-primary, .btn-primary:hover { border-color: ; }
+.btn-primary:hover { background-color: ; }
+
+.navbar-nav > li > a { color: ; }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus { color: ; }
+
+.dropdown-menu > li > a { color: ; }
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus { color: ; }
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {	background-color: ; }
+
+body > footer {	color: ; }
+body > footer a,
+body > footer a:hover { color: ; }
+
+/* Fonts */
+
+body {  }
+
+h1,h2,h3 {  }
+
+h4,h5,h6 {  }
+
+h4,h5,h6 {  }
+
+.navbar-nav > li > a {  }
+
+.dropdown-menu {  }
+/* END custom_css */
