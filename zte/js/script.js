@@ -3,12 +3,12 @@ $(document).ready(function() {
 
 	$("#box1").on("mouseover", function() {
 		$("#phone2").removeClass("visible").addClass('hidden');$("#phone1").removeClass("hidden").addClass("visible");
-		$("#box2, #box3, #box4, #box5").removeClass("desc-box-hover").addClass('desc-box');$("#box1").removeClass("desc-box").addClass("desc-box-hover");
+		$("#box2, #box4, #box5").removeClass("desc-box-hover").addClass('desc-box');$("#box1").removeClass("desc-box").addClass("desc-box-hover");
 	});
 
 	$("#box2").on("mouseover", function() {
 		$("#phone1").removeClass("visible").addClass('hidden');$("#phone2").removeClass("hidden").addClass("visible");
-		$("#box1, #box3, #box4, #box5").removeClass("desc-box-hover").addClass('desc-box');$("#box2").removeClass("desc-box").addClass("desc-box-hover");
+		$("#box1, #box4, #box5").removeClass("desc-box-hover").addClass('desc-box');$("#box2").removeClass("desc-box").addClass("desc-box-hover");
 	});
 
 	$("#box3").on("mouseover", function() {
