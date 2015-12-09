@@ -295,30 +295,29 @@
 	background-image: url("../images/posterimage.jpg");
 }
 
-.shop {
-	background-color: white;
-	overflow: hidden;
-	margin: 0 auto;
+.shopdesc {
+	text-decoration: none;
+	font-size: 18px;
+	color:#3872f0;
 	text-align: center;
+	display: block;
+	margin: 90px 0px;
 }
 
 #shopitems {
-	margin: 0;
 	padding: 0;
+	background-color: white;
+	margin: 0 auto;
 }
 
 .shopdiv {
-	display: block;
-	
+	float: left;
 }
 
-/*#shopitems img {
-	width: 25%;
-	box-sizing: border-box;
-	margin: 80px 20px;
-	padding: 0;
-	text-align: center;
-}*/
+.shopdiv img {
+	float: left;
+	margin-bottom: 30px;
+}
 
 .small {
 	font-size: 24px;
@@ -358,6 +357,7 @@
 	float: left;
 	overflow:hidden;
 }
+
 .ax1 img {
 	width: 19vw;
 }
