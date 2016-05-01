@@ -173,6 +173,13 @@
 				margin: 0 2em 2em 0;
 			}
 
+			.image_sidebar
+			{
+				display: block;
+				margin: 0 0 2em 0;
+				padding-top: 20px;
+			}
+
 			.image.centered
 			{
 				display: block;
