@@ -607,6 +607,19 @@
 			color: #87BD94;
 		}
 
+		.icon2
+		{
+			position: relative;
+			display: inline-block;
+			width: 3em;
+			height: 3em;
+			border-radius: 50%;
+			border: 1px solid #ffffff;
+			line-height: 3em;
+			font-size: 1.8em;
+			color: #87BD94;
+		}
+
 /*********************************************************************************/
 /* Icons                                                                         */
 /*********************************************************************************/
@@ -628,6 +641,25 @@
 			-webkit-font-smoothing:antialiased;
 			-moz-osx-font-smoothing:grayscale;
 		}
+
+
+	.icon2
+	{
+		text-decoration: none;
+	}
+
+		.icon2:before
+		{
+			display: inline-block;
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing:antialiased;
+			-moz-osx-font-smoothing:grayscale;
+		}	
 
 /*********************************************************************************/
 /* Header                                                                        */
